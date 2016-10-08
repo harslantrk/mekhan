@@ -1,0 +1,1167 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+h3 {
+	margin:0px;
+}
+
+}
+/*----------- HEADER ---------*/
+.header {
+
+}
+.header .panel-default {
+	margin-top: 0px;
+}
+.header-top {
+	background: #800000;
+	padding: 0px 23px;
+	color: #fff;
+
+}
+.header-top-input {
+	cursor: pointer;
+    padding: 8px 0px;
+}
+.header-top-input img {
+    opacity: 0.7;
+    top: 9px;
+    left: 19px;
+}
+.header-top-input input:focus {
+	background: url(../../../../assets/img/search-focus.png);
+	background-repeat: no-repeat;
+	background-position-x:15px;
+	background-position-y:center;
+	background-color: #fff;
+}
+.header-top-input input{
+	height: 38px;
+	border-radius: 2px;
+	background-color: #474c51;
+	width: 300px;
+	padding-left: 40px;
+	border:0;
+	color: #000;
+	background-image: url(../../../../assets/img/search.png);
+	background-repeat: no-repeat;
+	background-position-x:15px;
+	background-position-y:center;
+
+}
+.btn-hamburger {
+	padding-top: 5px;
+}
+.btn-hamburger button {
+	background-color: transparent;
+	border:0;
+	padding: 10px;
+}
+.btn-hamburger button:hover {
+	background-color: #575e64;
+}
+.btn-hamburger .dropdown-menu {
+	margin-top: 8px;
+	border-radius: 0px;
+}
+.btn-hamburger .dropdown-menu li a{
+	padding: 5px 61px 5px 41px;
+}
+.btn-group-lang {
+	padding-top: 5px;
+}
+.btn-group-lang button{
+	background-color: transparent;
+	border:0;
+}
+.btn-group-lang .dropdown-menu {
+	border-radius: 0;
+	margin-top: 8px;
+}
+.login-button {
+	background-color: transparent;
+	border:0px;
+	width: 100%;
+	padding-top: 15px;
+	text-align: right;
+}
+.login-button:focus {
+	outline: 0;
+}
+.modal-content {
+	color: #fff;
+}
+.login-head {
+	color: #000;
+	text-align: center;
+}
+.register-head {
+	color: #000;
+	text-align: center;
+}
+}
+.modal-content .panel {
+	border:0;
+}
+.modal-content .panel-heading {
+	background: #800000;
+	color: #fff;
+	text-align: center;
+}
+.panel-body .login {
+	text-align: center;
+}
+.panel-body .login .giris-yap {
+	width: 24%;
+	border:2px solid #800000;
+	background: #800000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.panel-body .login .giris-yap:hover{
+	background: transparent;
+	color: #800000;
+}
+.panel-body .login .facebook-login {
+	width: 24%;
+	border:2px solid #385998;
+	background: #385998;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 15px 10px 15px;
+}
+.panel-body .login .facebook-login:hover{
+	background: transparent;
+	color: #385998;
+
+}
+.panel-body .login .register {
+	width: 49%;
+	padding: 10px 15px 10px 15px;
+	background: #000;
+	border:0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+	border:2px solid #000;
+}
+.panel-body .login .register:hover {
+	background: transparent;
+	color: #000;
+} 
+.panel-body .login input {
+	width: 50%;
+	padding: 10px 15px 10px 15px;
+	color: #000;
+	margin-top: 20px;
+
+}
+.panel-body .register input {
+	width: 48%;
+	padding: 10px 15px 10px 15px;
+	color: #000;
+	margin-top: 20px;
+
+}
+.header-bottom {
+	padding: 10px 23px;
+}
+.header-bottom .navbar {
+	background: transparent;
+	border:0 !important;
+}
+.header-bottom .collapse {
+	border-color: transparent !important;
+}
+.header-bottom .collapse .navbar-nav {
+	float: right ;	
+}
+.header-bottom .collapse .navbar-nav li {
+	padding-top: 17px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.header-bottom .collapse .navbar-nav li:hover a{
+	color: #800000;
+}
+
+/*----------- END HEADER ---------*/
+
+
+/*----------- CONTENT ---------*/
+.content {
+	padding: 0px 8px 20px; 8px;
+
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hover-content {
+	background-color: rgba(0, 0, 0, 0.65098);
+    color: rgb(255, 255, 255);
+    margin-top: -66px;
+    height: 66px;
+    transition: background 0.2s ease-in-out;
+}
+.content-1 {
+	position: relative;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+    padding: 13px 32px 20px;
+}
+
+.affix {
+	top: 20px;
+	width: 354px;
+}
+.affix img {
+
+}
+.panel-default {
+	margin-top: 30px;
+	border-radius: 0;
+	border:0;
+}
+.panel-footer {
+	border:0;
+	padding: 0px;
+}
+.panel-body {
+	padding: 0px;
+}
+.panel-body img {
+	width: 100%;
+	height: 100%;
+}
+.panel-footer .place {
+	padding: 15px 0px 5px 35px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.panel-footer .event {
+	padding: 0px 0px 5px 35px;
+}
+.etkinlik-populerite {
+	float: right;
+}
+.etkinlik-populerite span {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	padding:30px 5px 0px 5px;
+}
+.etkinlik-populerite .views-1 {
+	padding-right: 15px;
+}
+.etkinlik-populerite .likes-1 {
+	padding-right: 15px;
+}
+.etkinlik-populerite .shares-1 a {
+	color: #000;
+}
+.content-body-event .panel-heading {
+	padding: 0px;
+	background: transparent;
+}
+.content-body-event .panel-body .time {
+	padding: 10px 0px 0px 10px;
+}
+.content-body-event .panel-body .col-sm-6 i {
+	padding: 15px;
+	font-size: 36px;
+	float: right;
+}
+.content-body-event .panel-heading img {
+	width: 100%;
+}
+.content-body-event .place {
+	padding: 10px 0px 5px 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.content-body-event .event {
+	padding: 0px 0px 5px 10px;
+}
+.content-body-event span {
+	float: left;
+	padding: 15px 10px 15px 0px;
+}
+.content-body-event span {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	padding:30px 5px 0px 5px;
+}
+.content-body-event .views-1 {
+	padding-right: 15px;
+}
+.content-body-event .likes-1 {
+	padding-right: 15px;
+}
+.content-body-event .pictures-1 {
+	padding-right: 15px;
+}
+.content-body-event .shares-1 a {
+	color: #000;
+}
+.later-adwords {
+	margin-top: 30px;
+	border:3px solid #ccc;
+}
+.later-adwords img{
+	width: 100%;
+	padding: 5px;
+}
+/*----------- END CONTENT ---------*/
+
+
+/*----------- SIDEBAR ---------*/
+.banner {
+	border:3px solid #ccc;
+	padding: 5px;
+}
+.banner-2 {
+	margin-top: 20px;
+}
+.banner-2 img {
+	border-radius: 20px;
+	width: 100%;
+}
+/*----------- END SIDEBAR ---------*/
+
+
+/*----------- Galeri  ---------*/
+.calendar {
+	position: relative;
+	margin-bottom: 32px;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+.calendar .day {
+	font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: #50565c;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.calendar .date {
+	position: relative;
+    height: 146px;
+    background: #3d444a;
+    color: #fff;
+   
+}
+.calendar .content-2 {
+	height: 326px;
+    background: #2f373b;
+    padding-top: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.calendar .date .date-day {
+	font-size: 60px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-left: 61px;
+    line-height: 45px;
+    text-align: center;
+    width: 70px;
+    float: left;
+}
+.calendar .date .month {
+	font-size: 12px;
+    padding-top: 57px;
+    padding-left: 140px;
+}
+.calendar .date .year {
+	font-size: 20px;
+    color: #999;
+    padding-left: 140px;
+}
+.ui-widget-header {
+	border: 0;
+    background: transparent;
+    padding-bottom: 10px;
+}
+.ui-widget-content {
+	background: transparent;
+	border:0;
+}
+.ui-datepicker-inline {
+	width: 290px;
+	margin:0 auto;
+}
+.ui-datepicker-title {
+	text-transform: capitalize;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.ui-datepicker-prev {
+	float: left;
+	cursor: pointer;
+	color: #aaa;
+	padding-left: 5px;
+}
+.ui-datepicker-prev:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.ui-datepicker-next {
+	float: right;
+	cursor: pointer;
+	color: #aaa;
+	padding-right: 5px;
+}
+.ui-datepicker-next:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.ui-datepicker table {
+	width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+
+.ui-datepicker-calendar th {
+	font-size: 12px;
+    color: #ccc;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+}
+.ui-datepicker-week-end {
+	color: #ff5252 !important;
+}
+.ui-datepicker td{
+	padding: 10px 6px;
+    text-align: center;
+    color: #fff;
+}
+.ui-datepicker td a{
+	color: #fff;
+	font-size: 12px;
+	padding: 10px 6px;
+}
+.ui-state-active {
+	background: #000;
+	border-radius: 5px;
+}
+.ui-datepicker td a:hover {
+	text-decoration: none;
+	background-color: #000;
+}
+.event-date {
+	border-bottom: 2px solid #000;
+	padding: 5px 8px;
+}
+.event-date .col-sm-11 span {
+	float: left;
+}
+.event-date .col-sm-11 span p {
+	margin: 0px;
+}
+.event-date .col-sm-11 span .day {
+	font-size: 18px;
+}
+.event-date .col-sm-11 span .mounth {
+	font-weight: bold;
+	font-size: 12px;
+}
+.event-date .col-sm-11 .event-day-1 {
+	padding-right: 5px;
+	margin:0px;
+	border-right: 1px solid #000;
+}
+.col-sm-2 .event-date-day {
+	float: right;
+}
+.event-date .col-sm-11 .event-day h3 {
+	font-size: 38px;
+	margin: 0px;
+	padding-left: 5px;
+}
+.event-date .col-sm-1 h3 {
+	font-size: 38px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.carousel-control {
+	display: none;
+}
+.carousel-caption {
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	padding:0px 0px 50px 20px;
+	background-color: #000;
+	opacity: .5;
+}
+/*----------- END Galeri ---------*/
+
+
+/*----------- Video ---------*/
+
+.event-video-top {
+
+}
+.event-video-top .panel {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.event-video-top .panel iframe {
+	width: 100%;
+}
+.event-video-top .panel .panel-footer {
+	
+	
+}
+.feature span {
+	float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 4px 15px 4px;
+}
+.feature span a {
+	color: #000;
+}
+.panel-footer .col-sm-2 i {
+	font-weight: bold;
+	padding: 15px 15px 15px 5px;
+}
+.panel-footer .col-sm-2 a {
+	color: #000;
+	float: right;
+}
+.choose-month {
+    border-radius: 2px;
+    background: #2f373b;
+    padding: 19px 19px 19px;
+    margin-bottom: 32px;
+}
+.bootstrap-select button {
+    
+    border-radius: 2px;
+    border-width: 0;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 500;
+    width: 100%;
+    height: 48px;
+    text-align: left;
+    padding-left: 25px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.choose-month .bootstrap-select .filter-option {
+	text-align: center;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+.bootstrap-select button .caret {
+	float: right;
+	margin-right: 15px;
+}
+.choose-month .btn-group, .btn-group-vertical {
+	width: 100%;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+	position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -2px;
+    vertical-align: middle;	
+}
+.bootstrap-select .dropdown-menu {
+    margin-top: -2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: -1px;
+    width: calc(100% + 2px);
+    min-width: 0;
+    font-size: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+.bootstrap-select .dropdown-menu .glyphicon {
+	color: transparent;
+}
+.bootstrap-select .dropdown-menu li a {
+	color: #000;
+	z-index: 999;
+}
+/*----------- END Video ---------*/
+
+/*----------- Etkinlikler ---------*/
+.etkinlikler-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.etkinlikler-content .panel .panel-body .col-sm-12 {
+	height: 92px;
+}
+.etkinlikler-content .panel .panel-body .col-sm-12 img {
+	height: 100%;
+}
+.etkinlikler-content .panel {
+	box-shadow: 0 2px 1px #ccc;
+}
+.etkinlikler-content .panel .panel-body {
+	padding: 15px 0px;
+}
+.etkinlikler-content a {
+	color: #000;
+}
+.etkinlikler-content .panel .panel-body .col-sm-12 .etkinlik-name-1 {
+	margin-top: 0px;
+}
+/*----------- END Etkinlikler ---------*/
+
+/*----------- Mekanlar ---------*/
+.event-date .col-sm-6 .btn-group {
+	float: right;
+}
+.event-date .col-sm-6 .btn-group .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.panel-body .mekan-category {
+	padding: 10px 0px 0px 10px;
+}
+.panel-body .rezervasyon {
+	float: right;
+	background-color: #7986cb;
+	border-radius: 5px;
+	padding: 6px 8px;
+	margin-top: 10px;
+	font-size: 10px;
+	margin-right: 19px;
+}
+.panel-body .rezervasyon a{color: #fff;}
+.panel-body .ilce {
+	float: none;
+	color: red;
+}
+.panel-body .il {
+	float: none;
+}
+.panel-body .mekan-spawn {
+	padding: 10px 0px 0px 10px;
+}
+.panel-body .mekan-ayricalik {
+	padding: 10px 0px 10px 10px;
+}
+.panel-footer .point {
+	float: right;
+	text-align: right;
+	font-size: 24px;
+	padding: 0px;
+	font-weight: 400;
+	padding-right: 19px;
+	padding-top: 5px;
+}
+
+/*----------- Mekanlar Filter ---------*/
+.places-filter {
+	width: 100%;
+    border-radius: 2px;
+    background: #2f373b;
+    padding: 19px;
+    margin-bottom: 33px;
+}
+.places-filter .filter-header {
+	font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: #50565c;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-transform: uppercase;
+    position: relative;
+    top: -19px;
+    left: -19px;
+    width: 354px;
+}
+.places-filter .selected-params {
+    background: #3d444a;
+    position: relative;
+    top: -19px;
+    left: -19px;
+    width: 354px;
+    padding: 35px 20px 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ccc;
+}
+.places-filter .selected-params .price {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+	margin-left: 7px;
+}
+.places-filter .filter-average-check-label {
+	font-size: 13px;
+	color: #999;
+	margin-bottom: 25px;
+}
+.places-filter #filter-average-check {
+	margin-bottom: 8px;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: -2px;
+    background: #595f62;
+    height: 2px;
+    top: -1px;
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 15px;
+    background: #fff;
+    top: -0.4em;
+    width: .85em;
+    height: .85em;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: -2px;
+    background: #595f62;
+    height: 2px;
+    top: -1px;
+}
+.places-filter .filter-ac-min,.places-filter .filter-ac-max {
+	font-size: 11px;
+	color: #666;
+}
+.places-filter .filter-ac-min {
+	float: left;
+}
+.places-filter .filter-ac-max {
+	float: right;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 100%;
+}
+.col-sm-6 .bootstrap-select button {
+	background: transparent;
+    border-radius: 2px;
+    border-width: 0;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 500;
+    width: 100%;
+    height: 48px;
+    text-align: left;
+    padding-left: 25px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.col-sm-6 .bootstrap-select button .caret {
+	float: right;
+	margin-right: 15px;
+}
+.bootstrap-select .dropdown-menu {
+    margin-top: -2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: -1px;
+    width: calc(100% + 2px);
+    min-width: 0;
+    font-size: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+.bootstrap-select .dropdown-menu a {
+	padding: 6px 20px;
+}
+.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text {
+	margin-right: 34px;
+}
+.places-filter .btn-apply {
+    text-transform: uppercase;
+    background: #3d444a;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+    color: #ccc;
+    border-radius: 2px;
+    width: 157px;
+    height: 42px;
+    margin-top: 30px;
+}
+/*----------- End Mekanlar Filter ---------*/
+
+
+/*----------- END Mekanlar ---------*/
+
+
+/*----------- MEKAN İÇERİK SAYFASI ---------*/
+.mekan-page-content {
+	padding: 0px 8px;
+}
+.mekan-page-content {
+	padding-top: 20px;
+}
+.mekan-page-content .col-md-8 .mekan-page-header {
+	border-bottom: 1px solid #d1d1d1;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+}
+.mekan-page-content .col-md-8 .mekan-page-header .col-sm-5 {
+	padding-top: 4px;
+	text-align: right;
+}
+.mekan-page-content .col-md-8 .mekan-page-header .col-sm-5 .paylas {
+	font-size: 16px;
+	padding-right: 20px;
+}
+.mekan-page-content .col-md-8 .mekan-page-header .col-sm-5 .paylas i {
+	padding-right: 10px;
+}
+.mekan-page-content .col-md-8 .mekan-page-header .col-sm-5 .paylas a {
+	color: #000;
+}
+.mekan-page-content .col-md-8 .mekan-page-header .col-sm-5 .begen i{
+	font-weight: bold;
+	font-size: 18px;
+	right: 0;
+}
+.mekan-page-content .col-md-8 .mekan-page-body .mekan-image {
+	width: 100%;
+	height: 453px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+}
+.mekan-page-content .col-md-8 .mekan-page-body .mekan-image img{
+	width: 100%;
+	height: 100%;
+}
+.mekan-page-content .col-md-8 .mekan-page-body .mekan-about .mekan-about-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+.mekan-page-content .col-md-8 .mekan-page-body .mekan-about .mekan-about-content {
+	padding-bottom: 50px;
+	font-size: 16px;
+}
+.mekan-page-content .col-md-8 .mekan-page-bottom {
+	border-bottom: 1px solid #d1d1d1;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+}
+.mekan-page-content .col-md-8 .mekan-page-bottom .col-sm-2 {
+	padding-top: 4px;
+	text-align: right;
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body {
+	background-color: #fafafa;
+	box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.25);
+	padding: 12px;
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-3 img {
+	border-radius: 10px;
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-7 .coming-event-detail {
+	
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-7 .coming-event-detail .event-clock {
+	text-align: right;
+}
+.event-clock-1 {
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.54);
+	font-weight: 300;
+	float: right !important;
+	top: 12px;
+}
+.mekan-page-content .col-md-8 a {
+	color: #000;
+}
+
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-7 .coming-event-detail .event-category{
+	font-size: 12px;
+	margin: 0px;
+	font-weight: bold;
+	padding: 20px 0px 10px 0px;
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-7 .coming-event-detail .event-date {
+	border:0;
+	padding: 0px;
+	margin:0px;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.mekan-page-content .col-md-8 .coming-event .panel-body .col-sm-7 .coming-event-detail .event-date span {
+	color: #d1d1d1;
+	padding-left: 20px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlik-title {
+	border-bottom: 1px solid #d1d1d1;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlik-title .col-sm-3 {
+	padding-top: 4px;
+	text-align: right;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-heading {
+	padding: 0px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-heading img {
+	border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-body {
+	padding: 10px 15px;
+	background: #fafafa;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-footer {
+	background-color: #fafafa;
+	margin-bottom: 55px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-footer span {
+	padding: 10px 4px 10px 4px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-footer .views-1 {
+	padding-right: 15px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-footer .likes-1 {
+	padding-right: 15px;
+}
+.mekan-page-content .col-md-8 .benzer-etkinlikler .row .col-sm-6 .panel-footer .pictures-1 {
+	padding-right: 15px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel {
+	margin-bottom: 0px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-heading {
+	padding: 0px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-heading img {
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body {
+	padding: 10px 15px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-category {
+	font-size: 12px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-name {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-phone {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-phone i {
+	padding-right: 25px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-eating {
+	font-size: 16px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-eating i {
+	padding-right: 28px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body p {
+	margin:0px;
+	padding: 0px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-body .mekan-konum i {
+	padding-right: 33px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-konum p {
+	margin:0px;
+	padding: 0px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-footer {
+	background: transparent;
+	box-shadow: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px 50px 15px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-footer span {
+	float: left;
+	padding: 10px 4px 10px 4px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-footer .views-1 {
+	padding-right: 15px;
+
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-footer .likes-1 {
+	padding-right: 15px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .panel .panel-footer .point {
+	float: right;
+	padding: 2px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .feature-bottom {
+	text-align: center;
+}
+.mekan-page-content .col-md-4 .mekan-feature .feature-bottom .col-sm-3 {
+	display: table-cell;
+	width: 1%;
+	float: none !important;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.mekan-page-content .col-md-4 .mekan-feature .feature-bottom .col-sm-3 a {
+	color: #000;
+}
+.mekan-page-content .col-md-4 .mekan-feature .feature-bottom .col-sm-3 a:hover {
+	text-decoration: none;
+	color: #777;
+}
+.mekan-page-content .col-md-4 .mekan-feature .feature-bottom .border-right {
+	border-right: 1px solid #ccc;
+}
+
+.mekan-page-content .col-md-4 .mekan-feature .mekan-map {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*----------- END MEKAN İÇERİK SAYFASI ---------*/
+
+.contact-body {
+	padding:25px 0px 20px 15px;
+}
+/*----------- FOOTER ---------*/
+.footer {
+
+}
+/*----------- END FOOTER ---------*/
+.slider {
+	padding-bottom: 20px;
+}
+
+/*----------- MEDIA 768 ---------*/
+@media (max-width: 768px) {
+	/*----------- HEADER 768 ---------*/
+	.header {
+
+	}
+	.header-bottom .navbar-collapse {
+		border-color: transparent;
+	}
+	.navbar-nav li a {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+	.navbar-nav li {
+		padding-top: 17px;
+	}
+	.etkinlikler-content .panel .panel-body {
+		text-align: center;
+	}
+	.header-bottom .collapse .navbar-nav {
+		float: left !important;	
+	}
+	/*----------- END HEADER 768 ---------*/
+
+
+	/*----------- CONTENT 768 ---------*/
+	.content {
+
+	}
+	/*----------- END CONTENT 768 ---------*/
+
+	/*----------- FOOTER 768 ---------*/
+	.footer {
+
+	}
+	/*----------- END FOOTER 768 ---------*/
+}
+/*----------- END MEDIA 768 ---------*/
+@media (min-width: 768px) and (max-width: 992px){
+	.affix {
+		width: 335px;
+	}
+	.places-filter .filter-header {
+		width: 334px;
+	}
+	.places-filter .selected-params {
+		width: 334px;
+	}
+	.event-date .col-sm-11 .event-day h3 {
+	font-size: 26px;
+	margin: 0px;
+	padding-top: 10px;
+	}
+	.event-date .col-sm-1 .event-date-day h3 {
+		font-size: 26px;
+	}
+	.carousel-caption {
+		padding: 0px;
+	}
+	.carousel-indicators {
+		bottom: -20px;
+	}
+	.carousel-caption h3{
+		font-size: 14px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+	}
+}
+@media (min-width: 991px) and (max-width: 1200px){
+	.affix {
+		width: 290px;
+	}
+	.places-filter .filter-header {
+		width: 284px;
+	}
+	.places-filter .selected-params {
+		width: 284px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.ui-datepicker-calendar {
+		max-width: 250px !important;
+	}
+}
+@media (max-width: 480px) {
+	.header-top-input input{
+		width: 200px;
+	}
+}

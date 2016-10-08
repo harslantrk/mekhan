@@ -1,0 +1,37 @@
+.advancedSearchFrame #frame > div#content_right {
+    margin: 0;
+}
+
+.advancedSearchFrame #content_main {
+    width: calc(100% - 320px);
+    float: left;
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width: 856px) and (max-width: 1024px) {
+    .sellYourBoatForm,
+    .sellYourBoatText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .advancedSearchFrame #content_main,
+    .advancedSearchFrame #centerBG {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .advancedSearchFrame #frame > div#content_right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sellYourBoatForm,
+    .sellYourBoatText {
+        width: 100%;
+    }
+}

@@ -1,0 +1,93 @@
+
+<!--Content-->
+
+<div class="content">
+	<div class="row">
+		<div class="col-md-8 col-sm-6">
+			<div class="event-date">
+				<div class="row">
+					<div class="col-sm-11">
+						<span class="event-day"><h3>ŞUBAT</h3></span>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="content-body-event">
+			<?php
+					foreach ($etkinlikler as $key => $value)
+					{
+					 if ($key%2==1) {
+					 	echo '<div class="row">';
+					 }
+				
+				 echo '
+			
+			<div class="col-md-6 col-sm-6 col-xs-6" style="padding-left:0px;">
+
+	
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="'.base_url() . 'blog/' . $value->link.'"><img src="'.$value->img.'" class="img-responsive"></a>
+			</div>
+			<div class="panel-body">
+				<div class="place"><p>
+					'. mb_strimwidth($value->title, 0, 35, "...") .'
+					</p>
+				</div>
+				<div class="event"><p>
+					'. mb_strimwidth($value->content, 0, 70, "...")  .'
+				</p></div>
+			</div>
+			<div class="panel-footer">
+				<div class="feature">
+					<span class="views">
+	  					<img src="'.base_url().'assets/front/img/ico-eye.png" class="img-responsive">
+	  					
+	  				</span>
+	  				<span class="views-1">
+	  					35,208
+	  				</span>
+	  				<span class="likes">
+	  					<img src="'.base_url().'assets/front/img/ico-heart.png" class="img-responsive">
+	  				</span>
+	  				<span class="likes-1">
+	  					25
+	  				</span>
+	  				<span class="pictures">
+	  					<img src="'.base_url().'assets/front/img/ico-pictures.png" class="img-responsive">
+	  				</span>
+	  				<span class="pictures-1">
+	  					53
+	  				</span>
+
+	  				<span class="shares">
+	  					<img src="'.base_url().'assets/front/img/ico-share.png" class="img-responsive">
+	  				</span>
+	  				<span class="shares-1">
+	  					<a href="#">Paylaş</a>
+	  				</span>
+				</div>
+			</div>
+</div>
+
+
+						</div>';
+					
+					if ($key%2==1) {
+							echo "</div>";
+						}
+			
+						
+						
+						
+
+
+						
+				}
+				?>
+			</div>
+			</div>
+		<?php require('fixed-sidebar-blog.php'); 	?>
+	</div>
+</div>

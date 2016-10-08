@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.akillipanda\.com$ [NC]
+RewriteRule ^(.*)$ https://akillipanda\.com/$1 [L,R=301]

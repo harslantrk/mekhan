@@ -1,0 +1,351 @@
+@media screen and (max-width: 767px) {
+    .container-reskin {
+        height: 40px;
+        padding-top: 0
+    }
+    .bottomAd {
+        display: none !important
+    }
+    #logo_header *:focus {
+        outline: 0
+    }
+    #logo_header {
+        height: 40px;
+        min-height: 40px
+    }
+    #hp_largefeatured-container {
+        margin-top: 36px
+    }
+    #top_logo {
+        width: 30px;
+        height: 50px;
+        float: left;
+        text-align: left;
+        min-height: 40px;
+        max-width: 40px;
+        margin-left: 40px;
+        padding-top: 15px
+    }
+    #top_logo img {
+        width: 160px;
+        height: 15px;
+        margin-top: -1px;
+        max-width: inherit
+    }
+    .top_search {
+        float: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+        z-index: 100000;
+        width: calc(100% - 80px)
+    }
+    .HeaderSearch {
+        width: calc(100% - 65px);
+        margin-right: 0;
+        height: 40px
+    }
+    .HeaderSearch input[type="text"] {
+        width: 100%;
+        height: 40px;
+        border-top: 0;
+        border-bottom: 0;
+        border-color: #f0f0f0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        background-color: #fff;
+        background-position: 8px center;
+        padding: 0 2px 0 25px;
+        font-size: 12px
+    }
+    .currentLocale {
+        width: 20px;
+        height: 40px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-color: #eee;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        margin-top: 0
+    }
+    .currentLocale li {
+        margin-top: 0
+    }
+    .localeSelector span {
+        padding: 13px 0 0 2px
+    }
+    .localeSelector .currentLocale ul {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        margin-top: 17px;
+        margin-right: -1px
+    }
+    div#content_right {
+        display: table
+    }
+    #yachtSearchContainer {
+        margin-top: -8px;
+        height: auto;
+        padding: 0 3px
+    }
+    #headerContainer {
+        max-width: 100%;
+        margin-left: 0
+    }
+    #headerContainer .currentLocale {
+        width: 40px
+    }
+    #headerContainer .localeSelector {
+        width: 53px
+    }
+    #headerContainer .HeaderSearch {
+        width: calc(100% - 40px)
+    }
+    #headerContainer #top_logo {
+        width: 34px
+    }
+    #headerContainer #top_logo img {
+        margin-left: 4px
+    }
+    .show-side-bar #headerContainer .top_search {
+        width: calc(100% - 240px)
+    }
+    .top_search {
+        margin-right: 0
+    }
+    .bottom_nav_first {
+        padding: 15px 0 2px
+    }
+    .bottom_nav_first .inner a {
+        display: block;
+        text-align: center;
+        margin-bottom: 8px
+    }
+    #footerType {
+        width: 90%;
+        line-height: 25px;
+        text-align: center
+    }
+    .detailsFrame #frame {
+        overflow-x: hidden
+    }
+    .hide-side-bar {
+        overflow: auto;
+        overflow-x: hidden
+    }
+    .hide-side-bar body.internal,
+    .hide-side-bar body.home,
+    .hide-side-bar body.browse {
+        margin-left: 0
+    }
+    .hide-side-bar button.navbar-toggle {
+        left: 0
+    }
+    .hide-side-bar #mainMenuContainer .menu ul {
+        display: none
+    }
+    button.navbar-toggle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        background: #2980b9;
+        border: 0;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        padding: 0;
+        border: 0;
+        z-index: 300000
+    }
+    button.navbar-toggle:focus,
+    button.navbar-toggle:visited,
+    button.navbar-toggle:hover {
+        opacity: 1
+    }
+    button.navbar-toggle>.icon-bar {
+        margin: 0 auto 2px;
+        display: block;
+        height: 2px;
+        width: 13px;
+        background-color: #fff
+    }
+    .hide-side-bar #mainMenuContainer {
+        display: none
+    }
+    .show-side-bar {
+        overflow: hidden
+    }
+    .show-side-bar body.internal,
+    .show-side-bar body.home,
+    .show-side-bar body.browse {
+        margin-left: 265px;
+        overflow: hidden
+    }
+    .show-side-bar button.navbar-toggle {
+        left: 265px
+    }
+    .show-side-bar #mainMenuContainer {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #2d3e4f;
+        width: 265px;
+        height: 100%;
+        min-height: 400px;
+        transition: all .2s ease;
+        display: block;
+        z-index: 300000;
+        overflow-y: auto
+    }
+    .show-side-bar #mainMenuContainer .menu {
+        height: auto;
+        min-height: 750px
+    }
+    .show-side-bar #mainMenuContainer .menu ul li {
+        display: block;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
+        float: none;
+        clear: both
+    }
+    .show-side-bar #mainMenuContainer .menu ul li:hover {
+        background: 0;
+        height: 50px;
+        line-height: 50px
+    }
+    .show-side-bar #mainMenuContainer .menu ul li a {
+        display: table;
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        line-height: 50px;
+        padding-left: 20px;
+        border: 0;
+        width: 100%;
+        font-size: 16px;
+        
+        margin-top: 0;
+        margin-bottom: 2px
+    }
+    .show-side-bar #mainMenuContainer .menu ul li a:hover {
+        background-color: inherit;
+        width: 100%;
+        line-height: 50px;
+        color: #2980b9;
+        background: 0
+    }
+    .show-side-bar #mainMenuContainer .menu ul ul {
+        visibility: visible;
+        position: relative;
+        background: #2d3e4f;
+        padding: 0;
+        margin: -10px 0 5px;
+        top: 0;
+        float: left;
+        clear: both;
+        width: 100%;
+        border: 0
+    }
+    .show-side-bar #mainMenuContainer .menu ul li ul li {
+        height: 30px !important;
+        line-height: 30px !important;
+        padding: 0;
+        margin: 0
+    }
+    .show-side-bar #mainMenuContainer .menu ul li ul li a {
+        background: #2d3e4f;
+        border: 0;
+        color: #bec7cf;
+        display: table;
+        overflow: visible;
+        width: 90%;
+        font-size: 14px;
+        font-weight: 200;
+        
+        padding-left: 30px;
+        float: left;
+        line-height: 14px
+    }
+    .show-side-bar #mainMenuContainer .menu ul li ul li a span {
+        text-decoration: none
+    }
+    .show-side-bar #mainMenuContainer .menu ul li ul li a:hover {
+        line-height: 14px;
+        width: 90%
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #top_logo,
+    #headerContainer #top_logo {
+        width: auto;
+        float: none;
+        text-align: center;
+        min-height: 45px;
+        max-width: 50%
+    }
+    .show-side-bar #top_logo,
+    .show-side-bar #headerContainer #top_logo {
+        margin-left: 258px;
+        width: 240px
+    }
+    #top_logo img,
+    #headerContainer #top_logo img {
+        width: auto;
+        margin-top: 0;
+        height: 15px
+    }
+    .show-side-bar #top_logo img,
+    .show-side-bar #headerContainer #top_logo img {
+        width: 60%;
+        overflow: hidden
+    }
+    .top_search,
+    #headerContainer .top_search {
+        width: 40%
+    }
+    .show-side-bar .top_search {
+        width: calc(100% - 346px)
+    }
+    .show-side-bar #headerContainer .top_search {
+        width: calc(100% - 342px)
+    }
+    .HeaderSearch {
+        width: calc(100% - 65px);
+        float: left
+    }
+    .show-side-bar .HeaderSearch {
+        width: calc(100% - 65px)
+    }
+    #headerContainer .HeaderSearch {
+        width: calc(100% - 40px)
+    }
+    .show-side-bar #headerContainer .HeaderSearch {
+        margin-left: 0
+    }
+    .HeaderSearch input,
+    #headerContainer .HeaderSearch input {
+        border-left: 1px solid #bfc5c9
+    }
+}
+@media screen and (max-width: 580px) {
+    .show-side-bar #yachtSearchContainer {
+        width: 250%
+    }
+}
+@media screen and (min-width: 768px) {
+    button.navbar-toggle {
+        display: none
+    }
+}

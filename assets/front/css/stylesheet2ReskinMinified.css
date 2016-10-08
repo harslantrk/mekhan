@@ -1,0 +1,1797 @@
+#headerContainer {
+    max-width: 1300px;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 15px;
+    height: 50px;
+    box-sizing: border-box
+}
+#top_logo {
+    width: 266px;
+    height: 50px;
+    position: relative;
+    top: 0
+}
+.localeSelector li:hover ul {
+    top: 23px
+}
+.localeSelector li li {
+    border: 0
+}
+#content_footer {
+    height: auto
+}
+#bottom_nav {
+    padding: 15px 15px 0 15px
+}
+.bottom_nav_first a:link {
+    color: #fff
+}
+div.centered-ad {
+    text-align: center
+}
+@media screen and (max-width: 1158px) {
+    #headerContainer {
+        max-width: 98%
+    }
+    #top_logo {
+        width: auto
+    }
+    #top_logo img {
+        width: 190px;
+        margin-top: 4px
+    }
+    #top_nav {
+        margin-left: 10px
+    }
+    .top_search {
+        margin-right: 40px
+    }
+    #mainMenuContainer .menu li a,
+    .menu a {
+        padding: 0 7px;
+        font-size: 14px
+    }
+    #top_small_menu,
+    .currentLocale {
+        width: 14px
+    }
+    .localeSelector span {
+        font-size: 0
+    }
+    .HeaderSearch {
+        width: 120px
+    }
+    #leftColumn {
+        width: 74%
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 810px) {
+    .container-reskin {
+        max-width: 100%
+    }
+    #top_logo img {
+        width: 160px;
+        margin-top: 4px;
+        max-width: 460%
+    }
+    #top_nav {
+        margin-left: 12px
+    }
+    #mainMenuContainer .menu li a,
+    .menu a {
+        padding: 0 6px
+    }
+    #footerType {
+        width: 95%
+    }
+}
+body {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif;
+    font-size: 1em
+}
+body.internal {
+    font-family: "Open Sans", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    background-color: #f5eadc;
+    background-image: none;
+    font-size: 11px
+}
+.container * {
+    box-sizing: border-box
+}
+*:-moz-selection {
+    background: none repeat scroll 0 0 #b3d4fc;
+    text-shadow: none
+}
+td {
+    font-family: "Open Sans", "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.titleGreyBox {
+    font-family: "Open Sans", "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#top_small_menu a:link,
+#top_small_menu a:visited,
+#top_small_menu a:active,
+#top_small_menu a:hover {
+    font-family: "Open Sans", "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#homepage_count_photo {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#homeSearchPopInput {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.homeSearchPopDataInput {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#featuredYachtsContainer {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#featuredBoats h2 {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#featuredYachtsAd {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+table#yachtsearch-a {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#yachtsearch-a input {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.homeNewSearchInput {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.homeNewSearchInputLong {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#yachtsearch-a #savedSearchList {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#yachtsearch-a #recent-search {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.dropdownSearch {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.recentsearch-row-td span {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.recent-search-ttl {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+body.intl #yachtsearch-a #newSearchPanel th,
+#yachtsearch-a th {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.homeNewSearchSelect {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#savedSearchList {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+table#yachtsearch-brown {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#yachtsearch input {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#recent-search {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.dropdownSearch {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.recent-search-ttl {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+.recentsearch-row-td span {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+#mrvbTab-A ul.topLevel li.mrvbHeader h1 {
+    font: 900 8.7pt "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#mrvbTab-Srp ul.topLevel li.mrvbHeader h1 {
+    font: bold 8.7pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+* HTML #browseContainerShort {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#browseContainerShort {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+* HTML #browseContainerFull {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#browseContainerFull {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.toolsnewsTitle,
+.toolsnewsTitle a {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#advancedSearchContainer {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#advancedSearchBrowse {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#search_left {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#search_center {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#centerBG {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#main_content {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+table.predefinedSearchListColumn td {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#searchResultsTitle {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+tr.searchResultsTableHeader {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.searchResultsDetailsRow {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#searchResultsDetailsData {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.boats {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+.boats_feature {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#toolsTitle,
+#newsTitle {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#browseLabel,
+body.intl #browseLabel {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+#browseContainer {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+body.intl #browseContainer {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+* HTML body.intl #featuredYachtsAd {
+    font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif
+}
+body.intl #featuredYachtsAd {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#headerContainer .mktLogoTxt {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#top_menu_mktTxt {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+body.home #frame {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 0
+}
+#hp_largefeatured-container {
+    width: 100%;
+    background: none repeat scroll 0 0 #35495d;
+    margin: 49px auto 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left
+}
+#hp_largefeatured-box {
+    width: 100%;
+    max-width: 1300px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+#hp_largefeatured-box .container {
+    width: 80%;
+    max-width: 980px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-block
+}
+#hp_largefeatured-box .container img {
+    width: 100%;
+    height: auto
+}
+#yachtSearchContainer {
+    width: 320px;
+    height: 450px;
+    font: normal 11px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background: none repeat scroll 0 0 #17222d;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    border-top: 8px solid #2980b9
+}
+#yachtsearch input {
+    letter-spacing: 0
+}
+#yachtSearchContainer button,
+#yachtSearchContainer input,
+#yachtSearchContainer select,
+#yachtSearchContainer textarea {
+    color: #303030
+}
+#yachtSearchContainer .brown .searchTop {
+    background: 0
+}
+#yachtSearchContainer .brown .searchBottom {
+    background: 0
+}
+#yachtSearchContainer .searchTop,
+#yachtSearchContainer .searchBottom {
+    height: 5px;
+    clear: both
+}
+#yachtSearchContainer form {
+    top: 0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+#yachtSearchContainer fieldset {
+    font-size: 125%;
+    margin: 0;
+    padding: 0;
+    border: medium none
+}
+#yachtSearchContainer div {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 100%
+}
+#yachtSearchContainer h1 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFF;
+    margin: 0;
+    padding: 1px 4px 0 5px
+}
+#yachtSearchContainer h2 {
+    text-align: center;
+    font-size: 130%;
+    text-transform: none;
+    padding: 1px 4px 5px 5px
+}
+#yachtSearchContainer ul {
+    font-size: 100%;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+#yachtSearchContainer .brown {
+    background: 0
+}
+#yachtSearchContainer.brown ul {
+    padding: 0
+}
+#yachtSearchContainer ul li {
+    margin: 1px 0;
+    padding: 3px 10px;
+    box-sizing: border-box
+}
+#yachtSearchContainer .mySavedSearches {
+    background-color: none;
+    margin: 0;
+    padding: 0
+}
+#yachtSearchContainer .brown .mySavedSearches {
+    background-color: transparent;
+    margin: 0;
+    padding: 3px 0 4px 10px;
+    box-sizing: border-box
+}
+#yachtSearchContainer .brown .mySavedSearches span {
+    display: block;
+    width: 145px;
+    float: left;
+    padding-right: 3px
+}
+#yachtSearchContainer .savedSearch .conditionPower ul li,
+#yachtSearchContainer .intSearchSavedSearch .conditionPower ul li {
+    padding: 3px 0
+}
+#yachtSearchContainer input,
+#yachtSearchContainer select {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    margin: 0;
+    border: 0 solid gray
+}
+#yachtSearchContainer input {
+    width: 100%;
+    height: 27px;
+    padding: 0 7px;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+#yachtSearchContainer input.typeRadio {
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+    vertical-align: top;
+    border: 0 solid gray
+}
+#yachtSearchContainer select {
+    width: 49.3%;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #bfc5c9;
+    float: right
+}
+#yachtSearchContainer #select-currencyid {
+    width: 49%;
+    margin-left: 2%
+}
+#yachtSearchContainer #select-cint {
+    width: 49%
+}
+#yachtSearchContainer .conditionPower ul li {
+    margin-right: 8px;
+    margin-bottom: 5px;
+    float: left
+}
+#yachtSearchContainer .conditionPower ul li:last-of-type {
+    margin-right: 0
+}
+select#savedSearchList {
+    width: 50%;
+    margin-right: 9px;
+    margin-bottom: 5px
+}
+#yachtSearchContainer input.typeShortNum {
+    width: 22.2%
+}
+.conditionPower {
+    clear: both
+}
+.conditionPower li {
+    width: 31.5%;
+    list-style: outside none none;
+    display: inline-block
+}
+.conditionPower input.typeRadio {
+    display: none
+}
+.conditionPower label {
+    color: #a3acb2;
+    list-style: outside none none
+}
+#yachtSearchContainer .conditionPower ul {
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    float: none
+}
+#yachtSearchContainer .power {
+    border-left: 0 dashed #FFF;
+    margin-top: 3px
+}
+.conditionPower label {
+    width: 100%;
+    height: 27px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 200%;
+    text-align: center;
+    background-color: #FFF;
+    margin: 0;
+    box-shadow: 0 0 0 #d7dee0;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #bfc5c9
+}
+.conditionPower .active {
+    background: #2980b9;
+    -moz-box-shadow: 0 3px 0 #2472a4;
+    -webkit-box-shadow: 0 3px 0 #2472a4;
+    box-shadow: 0 3px 0 #2472a4;
+    color: white;
+    -moz-box-shadow: 0;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    border: 0
+}
+li.length input#luom-ft,
+li.length input#luom-m {
+    margin-left: 0;
+    padding-left: 0
+}
+#yachtSearchContainer .to {
+    font-size: 100%;
+    vertical-align: -19px
+}
+#yachtSearchContainer .price {
+    width: 100%;
+    clear: both;
+    float: left
+}
+#yachtSearchContainer .length,
+#yachtSearchContainer .price,
+#yachtSearchContainer .year {
+    clear: both;
+    height: 38px
+}
+#yachtSearchContainer .leftSide {
+    float: left;
+    padding-top: 5px
+}
+#yachtSearchContainer .rightSide {
+    float: right;
+    width: 129px;
+    text-align: center
+}
+#yachtSearchContainer .rightSide input.typeShortNum {
+    width: 37%;
+    float: left
+}
+#yachtSearchContainer .rightSide input.typeShortNum:last-child {
+    float: right
+}
+.length label {
+    padding: 0 3px;
+    vertical-align: middle;
+    display: inline-block
+}
+input#luom-ft,
+input#luom-m {
+    margin: 0 3px;
+    vertical-align: middle;
+    display: inline-block
+}
+li.length input#luom-ft,
+li.length input#luom-m {
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 5px;
+    padding-left: 0
+}
+.length input.typeRadio {
+    width: auto !important;
+    height: auto !important;
+    display: block
+}
+#yachtSearchContainer .year {
+    clear: both
+}
+.year span.label {
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block
+}
+.price label {
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block
+}
+#yachtSearchContainer .searchKeyword {
+    display: none
+}
+#yachtSearchContainer .price .label,
+#yachtSearchContainer .intPrice .label,
+#yachtSearchContainer .year .label {
+    display: inline-block
+}
+#yachtSearchContainer .submit {
+    font-size: 100%;
+    height: 32px
+}
+li.advancedSearch {
+    width: 120px;
+    line-height: 11px;
+    clear: both;
+    float: left;
+    display: block
+}
+#yachtSearchContainer .submit a.basic,
+#yachtSearchContainer .submit button.basic {
+    width: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+    color: #FFF;
+    background: none repeat scroll 0 0 #30ad63;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0 solid #fff
+}
+#yachtSearchContainer .submit a.basic:hover,
+#yachtSearchContainer .submit button.basic:hover {
+    opacity: .7
+}
+#yachtSearchContainer .submit a.reset {
+    font-size: 100%;
+    text-decoration: none;
+    text-transform: none;
+    color: #FFF;
+    margin-left: 0;
+    padding: 0;
+    cursor: pointer;
+    border-color: #c1d4e3 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium
+}
+#yachtSearchContainer .submit a.basic:hover,
+#yachtSearchContainer .submit button.basic:hover {
+    color: #fff
+}
+.clearForm {
+    height: auto;
+    font-size: 80%;
+    text-align: center;
+    padding: 0;
+    float: right
+}
+a.advanced {
+    width: 48%;
+    text-align: center;
+    color: #2980b9
+}
+a.resetRight {
+    width: 48%;
+    color: #2980b9;
+    text-align: center
+}
+a.advanced:hover,
+a.resetRight:hover {
+    opacity: .7
+}
+
+#yachtSearchContainer a,
+#yachtSearchContainer a:visited,
+#yachtSearchContainer a:hover {
+    color: #2980b9;
+    text-decoration: none
+}
+#yachtSearchContainer .clearForm {
+    position: relative;
+    width: 100%;
+    margin-top: 7px
+}
+#yachtSearchContainer .clearForm a.advanced {
+    font-size: 125%;
+    width: 46%;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding-left: 3px
+}
+#yachtSearchContainer .clearForm a.resetRight {
+    position: relative;
+    width: 54%;
+    float: none;
+    font-size: 125%;
+    top: 0
+}
+@media only screen and (max-width: 767px) {
+    #leftColumn {
+        width: auto
+    }
+}
+div#content_right {
+    width: 33%;
+    max-width: 315px;
+    float: right;
+    width: 315px;
+    padding: 7.5px;
+    background: #ced7d9;
+    margin-top: 81px
+}
+.newRow {
+    width: 100%;
+    padding-bottom: 5px;
+    clear: both;
+    overflow: hidden
+}
+#featuredBoats {
+    width: 74%;
+    max-width: 607px;
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+    margin: 4px 0 0 6px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #e4d1b7
+}
+#featuredBoats h2 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#recentlyViewedBoats ul li a,
+#recentlyViewedBoats ul li a:visited {
+    font: bold 11px "Open Sans", Arial, Helvetica, sans-serif
+}
+#recentlyViewedBoats .subSection {
+    font: 13px "Open Sans", Arial, Helvetica, sans-serif;
+    border-top: 0;
+    margin-top: 10px;
+    padding-top: 0;
+    width: 95%
+}
+#recentlyViewedBoats .subSection h4 {
+    font: bold 11px "Open Sans", Verdana, Geneva, sans-serif
+}
+.hpNewsBlock .h2 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#socialMedia {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#browseSection ul.tabs h4 a {
+    font: bold 10pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#browseSection .content p {
+    font: bold 8pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#browseSection td a {
+    font: 400 8pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox h3 {
+    font: bold 10pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox h4 {
+    font: bold 10pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox h5 {
+    font: bold 10pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox h6 {
+    font: bold 10pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox .subSection {
+    font: 8pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#intro {
+    font: 7.5pt "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#mainMenuContainer {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+#hp_largefeatured {
+    background: 0;
+    margin: 0 auto;
+    text-align: center
+}
+#hp_largefeatured .container {
+    width: auto;
+    left: 0
+}
+.hero:before,
+.hero:after {
+    content: " ";
+    display: table
+}
+.hero:after {
+    clear: both
+}
+.hero {
+    transform: translate3d(0, 0, 0)
+}
+@media only screen and (min-width: 1299px) {
+    .hero {
+        background: #35495d;
+        padding: 25px 65px;
+        position: relative
+    }
+    .hero .background {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        position: absolute
+    }
+    .hero>.container {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        *zoom: 1;
+        -moz-box-shadow: 0 0 15px rgba(48, 48, 48, 0.25);
+        -webkit-box-shadow: 0 0 15px rgba(48, 48, 48, 0.25);
+        box-shadow: 0 0 15px rgba(48, 48, 48, 0.25);
+        position: relative;
+        z-index: 1
+    }
+    .hero>.container:before,
+    .hero>.container:after {
+        content: " ";
+        display: table
+    }
+    .container:before,
+    .container:after {
+        content: " ";
+        display: table
+    }
+    .hero>.container:after {
+        clear: both
+    }
+    .hero .overlay {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #35495d;
+        opacity: .9;
+        position: absolute
+    }
+    #leftColumn {
+        width: 100%;
+        max-width: 980px;
+        margin-left: 0;
+        padding: 1%;
+        box-sizing: border-box;
+        position: relative;
+        border: 0 solid red
+    }
+}
+.hero .search {
+    background: ;
+    -moz-box-shadow: 0 5px 0 rgba(48, 48, 48, 0.15);
+    -webkit-box-shadow: 0 5px 0 rgba(48, 48, 48, 0.15);
+    -shadow: 0 5px 0 rgba(48, 48, 48, 0.15);
+    padding: 0 15px;
+    position: relative;
+    z-index: 200
+}
+@media only screen and (min-width: 767px) {
+    .hero .search {
+        width: -moz-calc(100% - 320px);
+        width: -o-calc(100% - 320px);
+        width: -webkit-calc(100% - 320px);
+        width: calc(100% - 320px);
+        height: 450px;
+        float: left;
+        background: #17222d;
+        border-top: 8px solid #2980b9;
+        -moz-box-shadow: 0;
+        -webkit-box-shadow: 0;
+        box-shadow: 0
+    }
+}
+.hero .feature {
+    display: block;
+    position: relative;
+    z-index: 100
+}
+@media only screen and (max-width: 767px) {
+    .hero .feature {
+        height: auto !important
+    }
+    div#rightColumn,
+    div#content_right {
+        width: auto;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px
+    }
+}
+@media only screen and (min-width: 767px) {
+    .hero .feature {
+        width: -moz-calc(100% - 320px);
+        width: -o-calc(100% - 320px);
+        width: -webkit-calc(100% - 320px);
+        width: calc(100% - 320px);
+        float: left
+    }
+    .hero .feature .image {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        position: absolute
+    }
+    .hero .feature img {
+        visibility: hidden
+    }
+}
+.hero .feature .information {
+    width: auto;
+    right: 25px;
+    bottom: 20px;
+    text-align: right;
+    line-height: 1.4rem;
+    color: #fff;
+    position: absolute
+}
+.hero .feature .information .title {
+    font-size: 15px;
+    font-weight: 600
+}
+.hero .feature .information button {
+    width: auto;
+    height: auto;
+    line-height: 1;
+    color: #35495d;
+    background: #fff;
+    margin-top: 6px;
+    padding: 9px 15px;
+    display: inline-block;
+    cursor: auto;
+    font-size: 15px
+}
+.hero .feature .information button:hover {
+    color: #2980b9
+}
+.home.first-visit .hero .search {
+    padding-top: 30px
+}
+.home.first-visit #dk_container_recent_searches {
+    display: none !important
+}
+@media only screen and (max-width: 767px) {
+    #yachtSearchContainer {
+        width: 100%;
+        background: none repeat scroll 0 0 ;
+        box-shadow: 0 5px 0 rgba(48, 48, 48, 0.15);
+        padding: 0 15px;
+        position: relative;
+        z-index: 200
+    }
+    #yachtSearchContainer h1 {
+        color: #303030
+    }
+    .background {
+        display: none
+    }
+    .hero .feature {
+        height: auto !important
+    }
+    .hero .feature {
+        display: block;
+        position: relative;
+        z-index: 100
+    }
+    audio,
+    canvas,
+    img,
+    video {
+        max-width: 100%;
+        vertical-align: middle
+    }
+    img {
+        border: 0 none
+    }
+    .overlay {
+        display: none
+    }
+    #yachtSearchContainer div,
+    #yachtSearchContainer ul {
+        color: #303030
+    }
+}
+@media only screen and (min-width: 479px) {
+    #featuredBoats ul li img {
+        height: 240px
+    }
+}
+@media only screen and (min-width: 767px) {
+    #featuredBoats h2 {
+        padding: 15px 10px
+    }
+    #featuredBoats ul li {
+        display: block
+    }
+    #featuredBoats ul li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 31.65%;
+        float: left;
+        margin-left: .83333%;
+        margin-right: .83333%
+    }
+}
+@media only screen and (min-width: 1023px) {
+    #featuredBoats {
+        position: relative;
+        margin-left: -0.83333%
+    }
+}
+@media only screen and (min-width: 1299px) {
+    #featuredBoats {
+        margin: 0 auto
+    }
+    #featuredBoats h2 {
+        clear: both;
+        padding: 20px 0;
+        margin-left: 5px
+    }
+    #featuredBoats:after {
+        clear: both
+    }
+    #featuredBoats:before {
+        content: " ";
+        display: table
+    }
+    #featuredBoats ul li {
+        display: block
+    }
+    #featuredBoats ul li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+        margin-left: .8%;
+        margin-right: .8%;
+        padding: 0
+    }
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto
+}
+#featuredBoats {
+    font-family: "open sans", Helvetica, sans-serif;
+    float: left;
+    border: 0;
+    background: ;
+    width: auto;
+    padding: 0;
+    max-width: 100%
+}
+#featuredBoats h2 {
+    font-size: 1.4em;
+    color: #303030;
+    font-family: "open sans", Helvetica, sans-serif
+}
+#featuredBoats ul li {
+    border: 0;
+    margin-bottom: 15px;
+    height: auto;
+    background-color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    color: #35495d;
+    font-size: 14px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -moz-box-shadow: 0 0 8px rgba(48, 48, 48, 0.1);
+    -webkit-box-shadow: 0 0 8px rgba(48, 48, 48, 0.1);
+    box-shadow: 0 0 8px rgba(48, 48, 48, 0.1);
+    overflow: hidden;
+    padding: 0
+}
+#featuredBoats .savedSearch ul li {
+    height: auto
+}
+#featuredBoats ul li img {
+    width: 100%;
+    background-color: #bfc5c9;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    transition: height .3s ease;
+    margin-bottom: 10px
+}
+#featuredBoats a {
+    margin: 10px 0 5px;
+    color: #35495d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+#featuredBoats .featuredBroker {
+    border-top: 1px solid ;
+    margin: 7px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #969fa6;
+    -webkit-box-sizing: border-box
+}
+#featuredBoats .details {
+    margin: 10px 0;
+    height: 30px
+}
+#featuredBoats .details .price {
+    color: #2980b9;
+    margin-right: 10px
+}
+#featuredBoats .details .location {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 3px;
+    line-height: 16px
+}
+.newRow {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px
+        
+}
+#featuredBoats ul li {
+    background-color: #FFF;
+    border-radius: 5px
+}
+#featuredBoats ul li img {
+    min-width: 306px;
+    height: 240px;
+    min-height: 240px
+}
+@media only screen and (max-width: 767px) {
+    #featuredBoats {
+        width: 100%
+    }
+    #featuredBoats h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%
+    }
+    #featuredBoats ul {
+        width: 100%;
+        max-width: 309px;
+        list-style: outside none list;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        display: block
+    }
+    #featuredBoats ul li {
+        min-width: 309px
+    }
+    #featuredBoats ul li img {
+        height: 100%
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 981px) {
+    #featuredBoats ul li {
+        max-width: 100%;
+        width: 48%;
+        transition: all .15s ease 0
+    }
+    #featuredBoats ul li img {
+        top: 0;
+        max-width: 100%;
+        min-width: 225px;
+        max-height: 100%;
+        min-height: 150px;
+        height: 150px;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        transition: all .15s ease 0
+    }
+}
+@media only screen and (max-width: 479px) {
+    #featuredBoats ul li {
+        max-width: 100%;
+        min-width: 100%
+    }
+}
+a:link,
+a:visited {
+    color: #2980b9
+}
+a:hover {
+    color: #57b1eb
+}
+#yachtSearchContainer .brown,
+#yachtSearchContainer .brown .searchTop,
+#yachtSearchContainer .brown .searchBottom {
+    background: 0
+}
+.secondaryBox h3 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #303030;
+    border-bottom: 0 solid #b68649
+}
+.secondaryBox a.noLinkColor {
+    color: #2980b9
+}
+.secondaryBox {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 5%;
+    box-sizing: border-box
+}
+.secondaryBox a {
+    text-decoration: none
+}
+.secondaryBox a:hover {
+    color: #57b1eb
+}
+.secondaryBox a.noLinkColor:hover {
+    color: #57b1eb
+}
+.secondaryBox .subSection h4,
+#recentlyViewedBoats .subSection h4 {
+    font: bold 100% "Open Sans", Verdana, Geneva, sans-serif;
+    color: #35495d;
+    margin-bottom: 0
+}
+.secondaryBox ul li {
+    color: #bfc5c9
+}
+.secondaryBox .subSection {
+    border-top: 1px solid #e5eaeb
+}
+.secondaryBox h5 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #303030;
+    border-bottom: 0 solid #b68649
+}
+.secondaryBox h6 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #303030;
+    border-bottom: 0 solid #b68649
+}
+#buySell {
+    width: 31.5%;
+    height: auto;
+    min-height: 370px;
+    margin: 2% 0 2% 16px;
+    padding: 2%;
+    box-sizing: border-box
+}
+.hpNewsBlock,
+.hpArticlesBlock {
+    width: 31.5%;
+    height: auto;
+    min-height: 370px;
+    line-height: 1.3em;
+    background-color: #FFF;
+    margin: 2% 0 0 10px;
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+    border: 0 solid #e4d1b7
+}
+.hpArticlesBlock {
+    margin-left: 15px
+}
+.hpNewsBlock .h2,
+.hpArticlesBlock h2 {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #35495d;
+    border-bottom: 0 solid #b68649
+}
+.hpNewsBlock .h4 {
+    font-size: 14px;
+    margin: 12px 0 10px 0
+}
+.hpNewsBlock img {
+    width: 97%;
+    height: 205px;
+    overflow: hidden
+}
+.hpArticlesBlock {
+    width: 64%
+}
+#mrvbTab-B {
+    display: none
+}
+.newRow {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+#recentlyViewedBoats {
+    width: 104%;
+    font-size: 12px;
+    text-align: left
+}
+#recentlyViewedBoats .content {
+    padding: 5px 0
+}
+#recentlyViewedBoats a strong {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -8px;
+    line-height: 18px;
+    color: #2980b9;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+#recentlyViewedBoats img {
+    height: auto;
+    margin: 5px 0;
+    width: auto;
+    max-width: 98%;
+    max-height: 150px
+}
+#recentlyViewedBoats ul {
+    padding: 0;
+    margin: 2px 0;
+    text-align: left
+}
+#recentlyViewedBoats ul li {
+    display: inline;
+    margin-right: 10px
+}
+#recentlyViewedBoats ul li a {
+    padding: 5px 10px
+}
+body #frame {
+    width: 100%
+}
+#socialMedia {
+    width: 100%;
+    top: 0;
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    color: #303030;
+    margin: 0;
+    clear: both;
+    float: none;
+    display: block;
+    position: relative;
+    border: 0 solid red
+}
+#socialMedia ul {
+    padding: 0 2% 0 0
+}
+#socialMedia img {
+    vertical-align: middle
+}
+#browseSection {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    float: none
+}
+#browseSection ul.tabs h4 a {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    background-color: ;
+    border: 0 solid #fff
+}
+#browseSection ul.tabs h4 a.on {
+    color: #303030;
+    background-color: #fff;
+    border-bottom: 1px solid #fff
+}
+#browseSection ul.tabs h4 a.on:hover {
+    color: #57b1eb
+}
+#browseSection .content {
+    top: 0;
+    background-color: #fff;
+    padding: 2%;
+    clear: both;
+    position: relative;
+    border: 0 solid #e4d1b7
+}
+#browseSection .content p {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: 600
+}
+#browseSection th a,
+#browseSection th a:hover {
+    color: #2980b9
+}
+#browseSection td a {
+    font: 400 120%/170% "Open Sans", Verdana, Arial, Helvetica, sans-serif
+}
+a.browseDetails:link {
+    color: #2980b9;
+    text-decoration: underline;
+    line-height: 22px
+}
+a.browseDetails:hover {
+    color: #57b1eb
+}
+#browseYachts ul.tabs li {
+    width: auto;
+    clear: none
+}
+#browseYachts ul.tabs li.browseCharters {
+    display: none
+}
+#browseYachts tr {
+    width: 33%;
+    margin: 0;
+    padding: 1% 0 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    clear: both;
+    display: inline-block;
+    border-right: 1px solid #e5eaeb
+}
+#browseYachts td {
+    padding: 0
+}
+#browseYachts table ul li {
+    display: inline-block
+}
+#browseYachts li {
+    width: 32%;
+    vertical-align: top;
+    box-sizing: border-box;
+    clear: both;
+    display: inline-block;
+    border: 0 solid red
+}
+#browseYachts table tr th {
+    display: none
+}
+#browseYachts .content p:first-of-type {
+    display: none
+}
+.browseDetailsTitle,
+#browseYachts .title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    padding-bottom: 2px;
+    color: #333;
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    display: block
+}
+.browseDetailsTitle {
+    margin-top: 0
+}
+#browseYachts table tr:nth-of-type(2) {
+    padding-left: 2%;
+    box-sizing: border-box
+}
+#browseYachts table tr:nth-of-type(4) {
+    padding-left: 2%;
+    box-sizing: border-box;
+    border-right: 0 solid #e5eaeb
+}
+#browseYachts table tr:nth-of-type(2) td:before {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: 600;
+    padding-bottom: 2%;
+    display: block
+}
+#browseYachts table tr:nth-of-type(3) {
+    display: none
+}
+#browseYachts table tr:nth-of-type(4) td:before {
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: 600;
+    padding-bottom: 2%;
+    display: block
+}
+#recentlyViewedBoats {
+    width: 100%
+}
+#featuredBoats a {
+    min-height: auto
+}
+.boatname {
+    text-overflow: ellipsis;
+    padding: 0 2%;
+    overflow: hidden;
+    white-space: nowrap;
+    clear: both;
+    display: block
+}
+#leftColumn {
+    width: 75.6%;
+    max-width: 980px;
+    margin: 2% 0 0 -16px;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    display: table
+}
+div#rightColumn {
+    max-width: 315px;
+    min-width: 315px;
+    background: none repeat scroll 0 0 #ced7d9;
+    margin: 73px 0 0 0;
+    padding: 1%;
+    box-sizing: border-box;
+    float: right;
+    display: table
+}
+#featuredBoats {
+    margin-left: 12px
+}
+#featuredBoats h2 {
+    width: 99%;
+    padding: 0 0 27px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+@media screen and (min-width: 1100px) and (max-width: 1320px) {
+    #leftColumn {
+        width: calc(100% - 315px);
+        padding: 0;
+        margin-left: -15px
+    }
+    div#rightColumn {
+        margin-top: 77px
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+    #leftColumn {
+        width: calc(100% - 304px);
+        border: 0 solid blue
+    }
+    div#rightColumn {
+        margin-top: 73px
+    }
+    #buySell {
+        width: 65.5%;
+        margin: 2% 0 2% 3px
+    }
+    .hpNewsBlock {
+        width: 64%;
+        min-height: 200px
+    }
+    .hpNewsBlock img {
+        max-width: 100%;
+        width: 97%;
+        height: auto
+    }
+    #featuredBoats a {
+        height: 150px;
+        font-size: 90%;
+        line-height: 130%;
+        margin: 0 0 5px;
+        padding: 0;
+        overflow: visible;
+        position: relative;
+        white-space: normal;
+        justify-content: center;
+        flex-direction: column;
+        display: flex
+    }
+    #featuredBoats .details {
+        height: 30px;
+        font-size: 90%;
+        line-height: 100%;
+        margin: 0
+    }
+    #featuredBoats .featuredBroker {
+        font-size: 80%;
+        height: 30px;
+        white-space: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 95%
+    }
+    #featuredBoats ul li {
+        max-width: 100%;
+        width: 48%
+    }
+    #leftColumn .newRow.secondaryRow {
+        width: 146%;
+        margin-left: 16px;
+        margin-bottom: 20px
+    }
+    #browseYachts .browseDataTable {
+        width: 48.3%
+    }
+    #browseYachts .browseDataTable:nth-child(2) {
+        border-right: 0
+    }
+    #featuredBoats ul li:nth-of-type(1n+9) {
+        display: none
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .hpNewsBlock {
+        width: 64%;
+        min-height: 200px
+    }
+    .hpNewsBlock h4 {
+        margin: 7px 0;
+        display: block
+    }
+    .hpNewsBlock img {
+        max-width: 205px;
+        height: auto;
+        float: left;
+        padding-right: 20px
+    }
+    #featuredBoats a {
+        height: 100%;
+        font-size: 80%;
+        line-height: 100%;
+        margin: 0 0 5px;
+        padding: 0;
+        position: relative;
+        border: 0 solid red
+    }
+    #featuredBoats ul li img {
+        top: 0;
+        max-width: 100%;
+        min-width: 225px;
+        max-height: 100%;
+        min-height: 150px;
+        height: 150px;
+        position: relative;
+        margin: 0 auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px
+    }
+    .boatname {
+        height: 25px;
+        font-size: 14px;
+        padding: 2%
+    }
+    #featuredBoats .details {
+        height: 30px;
+        font-size: 80%;
+        line-height: 100%;
+        margin: 0
+    }
+    #featuredBoats .featuredBroker {
+        font-size: 80%;
+        height: 30px;
+        overflow: visible;
+        white-space: normal
+    }
+    #recentlyViewedBoats ul li {
+        margin-right: 8px
+    }
+    .newRow.secondaryRow {
+        width: 159.5%
+    }
+    #featuredBoats ul li:nth-of-type(1n+9) {
+        display: none
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1099px) {
+    #featuredBoats a {
+        height: 100%;
+        font-size: 90%;
+        line-height: 130%;
+        margin: 0 0 5px;
+        padding: 0
+    }
+    .boatname {
+        height: 25px;
+        font-size: 90%;
+        padding: 2%
+    }
+    #featuredBoats ul li:nth-of-type(1n+9) {
+        display: none
+    }
+    .newRow.secondaryRow {
+        width: 159.5%
+    }
+}
+@media screen and (max-width: 767px) {
+    #headerContainer {
+        padding-top: 0
+    }
+    #leftColumn {
+        margin: 2% auto;
+        float: none;
+        width: 100%;
+        display: block
+    }
+    #featuredBoats {
+        margin-left: 0
+    }
+    #buySell,
+    .hpNewsBlock,
+    .hpArticlesBlock {
+        width: 100%;
+        margin-left: 0
+    }
+    div#rightColumn {
+        margin: 20px auto;
+        float: none
+    }
+    .boatname {
+        height: 25px;
+        font-size: 15px;
+        padding: 2%
+    }
+    #yachtSearchContainer h2 {
+        color: #303030;
+        font-size: 150%;
+        padding: 10px 5px
+    }
+    .localeSelector li {
+        margin-right: 0
+    }
+    .localeSelector .currentLocale ul {
+        margin-right: 23px !important
+    }
+    #recentlyViewedBoats img {
+        width: auto;
+        height: auto;
+        margin: 5px 0
+    }
+    #featuredBoats ul li:nth-of-type(1n+4) {
+        display: none
+    }
+    .hpNewsBlock img {
+        height: auto
+    }
+}
+@media only screen and (max-width: 479px) {
+    #featuredBoats h2 {
+        font-size: 22px;
+        text-overflow: clip;
+        white-space: normal;
+        margin-top: 10px
+    }
+}
+.footer-seo {
+    width: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: #fff;
+    box-sizing: border-box
+}
+@media screen and (max-width: 500px) {
+    .footer-seo {
+        padding: 5%
+    }
+}

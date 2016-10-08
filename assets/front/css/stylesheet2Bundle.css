@@ -1,0 +1,4323 @@
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-top: 0;
+    background: #f5eadc;
+    margin: 0
+}
+body.home {
+    border: 0;
+    color: #343434;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+body.internal { 
+    border: 0;
+    color: #343434;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+#contentMain {
+    width: 999px
+}
+#contentUpper {
+    width: 999px
+}
+#contentLower {
+    width: 820px;
+    float: left;
+    text-align: left
+}
+#printLogo {
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+    width: 0
+}
+a#boatWizardDetails,
+a:link {
+    color: #b68649;
+    text-decoration: none
+}
+a#boatWizardDetails {
+    color: #b68649
+}
+a#boatWizardDetails {
+    color: #b68649
+}
+a#boatWizardDetails {
+    color: #08c
+}
+a:link,
+a:visited,
+a.browseDetails:hover,
+#searchResultsDetailsDescription a:link,
+#searchResultsDetailsDescription a:visited,
+.sponsoredBoatInfo a {
+    color: #b68649;
+    text-decoration: none
+}
+a:hover {
+    color: #08c
+}
+h2 a,
+a.browseDetails:link,
+a.browseDetails:visited,
+#search_center a:hover,
+#searchResultsDetailsDescription a:hover,
+a.sponsoredBoatsRight:link,
+a.sponsoredBoatsRight:visited,
+a.sponsoredBoatsRight:hover {
+    color: #b68649
+}
+#toolsnewsContent a:link,
+#toolsnewsContent a:visited {
+    color: #FFF
+}
+table,
+input,
+select {
+    font-size: 12px
+}
+a:active {
+    color: #2AE
+}
+form {
+    margin: 0;
+    padding: 0
+}
+td {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt
+}
+#titleGreyBox {
+    width: 100%;
+    background-color: #66777f;
+    text-align: center;
+    padding: 0
+}
+.titleGreyBox {
+    width: 100%;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFF;
+    padding: 8px 0
+}
+.tiny_text {
+    font-size: 10.5px
+}
+.user_quote {
+    font-size: 10.5px;
+    font-weight: 700;
+    text-align: right
+}
+#frame {
+    width: 999px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: left;
+    padding: 0;
+    overflow: hidden
+}
+#headerContainer {
+    position: relative;
+    z-index: 100;
+    display: block;
+    width: 999px;
+    height: 104px;
+    text-align: left
+}
+#flagContainer {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 103px;
+    font-size: 7pt
+}
+#top_logo {
+    height: 80px;
+    width: 390px;
+    position: absolute
+}
+#top_small_menu {
+    position: relative;
+    height: 20px;
+    line-height: 15px;
+    width: 500px;
+    float: right;
+    text-align: right;
+    color: #FFF;
+    font-weight: 500;
+    z-index: 50
+}
+#top_small_menu a:link,
+#top_small_menu a:visited,
+#top_small_menu a:active,
+#top_small_menu a:hover {
+    position: relative;
+    top: 2px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt
+}
+#top_small_menu img {
+    position: relative;
+    top: 2px;
+    border: 0
+}
+.localeSelector {
+    position: relative;
+    left: 15px
+}
+.localeSelector ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    background-color: #b1bbc2
+}
+.localeSelector li {
+    float: right;
+    position: relative;
+    margin-right: 15px
+}
+.localeSelector span {
+    display: block;
+    padding: 8px 0 5px;
+    white-space: nowrap
+}
+.localeSelector li ul {
+    position: absolute;
+    display: none;
+    float: right;
+    border: 1px solid #b1bbc2
+}
+.localeSelector li:hover ul {
+    left: auto;
+    right: 0;
+    display: block;
+    top: 45px
+}
+.localeSelector li li {
+    display: block;
+    float: none;
+    text-align: left;
+    bakcground: #eee;
+    border: 1px solid #bfc5c9;
+    color: #516f8e;
+    line-height: 0;
+    margin-right: 0
+}
+.localeSelector a {
+    display: block;
+    padding: 3px 15px 6px;
+    white-space: nowrap
+}
+#top_small_menu .localeSelector a:hover {
+    background-color: #eee;
+    color: #89a2bc
+}
+#top_small_menu .localeSelector a {
+    font: 11px Arial, Helvetica, sans-serif
+}
+#top_small_menu .localeSelector a img {
+    top: 2px;
+    vertical-align: top;
+    margin-right: 4px
+}
+#top_small_menu .currentLocale>span>img {
+    top: 0;
+    vertical-align: top;
+    *vertical-align: middle
+}
+#top_search_left {
+    position: relative;
+    display: block;
+    top: 13px;
+    float: left;
+    width: 510px;
+    height: 70px
+}
+#top_search_left_form {
+    width: auto;
+    height: auto;
+    font-size: 7pt
+}
+.top_search_left_text {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0b3862;
+    letter-spacing: -1px
+}
+.top_search_left_input {
+    width: 250px;
+    height: 12px;
+    font-size: 8pt
+}
+#top_search_left_submit {
+    width: 67px;
+    height: 19px;
+    color: #FFF;
+    font-size: 8pt;
+    font-weight: 700;
+    text-align: center;
+    line-height: 19px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+a.top_search_left_submit:hover {
+    color: #eaeaea;
+    text-decoration: none
+}
+#top_search_left_advanced a {
+    white-space: nowrap;
+    font-size: 8pt;
+    font-weight: 700;
+    color: #0b3862;
+    line-height: 20px
+}
+#top_bar_right {
+    position: relative;
+    float: right;
+    text-align: right;
+    width: 468px;
+    height: 30px;
+    top: 38px
+}
+#top_search_right_ad {
+    text-align: right
+}
+#homepage_counts {
+    position: inherit;
+    background-image: url("/core/images/BG_home_banner.gif");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 190px;
+    top: 0;
+    left: 0;
+    padding-left: 12px;
+    padding-top: 17px
+}
+#homepage_counts a:link,
+#homepage_counts a:visited {
+    color: #fff;
+    text-decoration: underline
+}
+#homepage_count_photo {
+    background-repeat: no-repeat;
+    width: 976px;
+    height: 172px;
+    text-align: right;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    color: #FFF
+}
+.homepage_welcome {
+    font-size: 30pt;
+    line-height: 50px;
+    padding-right: 10px;
+    color: #fff
+}
+.homepage_brag {
+    font-size: 13pt;
+    font-weight: 100;
+    padding-right: 10px;
+    line-height: 9pt;
+    color: #FFF
+}
+.homepage_counts {
+    font-size: 13pt;
+    line-height: 12pt;
+    padding-right: 10px;
+    font-weight: 100;
+    color: #FFF
+}
+#homeTopSearch {
+    background-image: url("/core/images/bg_home_search.gif");
+    width: 999px;
+    height: 12px
+}
+#homeTopSearchTitle {
+    position: relative;
+    width: 120px;
+    float: left;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0b3862;
+    letter-spacing: -1px;
+    top: 12px;
+    left: 20px
+}
+#homeTopSearchPopLink {
+    position: relative;
+    float: left;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0b3862;
+    letter-spacing: -1px;
+    top: 10px;
+    left: 17px;
+    cursor: pointer
+}
+#homeTopSearchSubmit {
+    position: relative;
+    float: right;
+    width: 67px;
+    height: 20px;
+    right: 470px;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer
+}
+#homeTopSearchSubmit a,
+#homeTopSearchSubmit a:visited {
+    top: 11px;
+    color: #fff;
+    font-size: 20pt;
+    font-weight: 800;
+    letter-spacing: -1px
+}
+body.intl #homeTopSearchSubmit {
+    position: relative;
+    float: right;
+    width: 67px;
+    height: 20px;
+    right: 470px;
+    top: 11px;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer
+}
+#homeTopSearchSubmit2 {
+    position: relative;
+    float: right;
+    width: 67px;
+    height: 20px;
+    right: 470px;
+    top: 11px;
+    color: #FFF;
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer
+}
+#homeTopSearchSubmit3 {
+    position: relative;
+    float: right;
+    width: 67px;
+    height: 20px;
+    right: 470px;
+    top: 11px;
+    color: #FFF;
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer
+}
+#finditSubmitButton a:link {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+#finditSubmitButton a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+#finditSubmitButton a:hover {
+    color: #eaeaea;
+    text-decoration: none;
+    cursor: pointer
+}
+#homeTopSearchReset {
+    position: absolute;
+    float: right;
+    width: 67px;
+    height: 19px;
+    top: 245px;
+    left: 5px;
+    color: #FFF;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 19px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer
+}
+#homeSearchPopContainer {
+    position: relative;
+    float: left;
+    width: 555px;
+    height: 1px;
+    z-index: 99;
+    left: -428px;
+    font-size: 11px
+}
+#homeSearchPop {
+    position: absolute;
+    float: left;
+    z-index: 1;
+    background-image: url("/core/images/BG_homeSearchPop.gif");
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 308px;
+    visibility: hidden;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    top: -19px;
+    left: 108px;
+    font-size: 11px
+}
+#homeSearchPopForm {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    padding: 0;
+    font-size: 11px
+}
+#homeSearchPopInput {
+    width: 310px;
+    height: 17px;
+    font-size: 8pt;
+    margin: 0;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #343434;
+    padding-top: 3px;
+    padding-left: 5px
+}
+.homeSearchPopDataInput {
+    width: 25px;
+    height: 17px;
+    font-size: 8pt;
+    margin: 0;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #343434
+}
+#switch {
+    position: absolute;
+    width: 317px;
+    height: 22px;
+    z-index: 1;
+    background-color: transparent;
+    margin: 0;
+    cursor: pointer
+}
+a.close:link {
+    color: #FFF
+}
+a.close:visited {
+    color: #FFF
+}
+a.close:hover {
+    color: #FFF
+}
+#homeBodyLeft {
+    width: 826px;
+    height: auto;
+    margin: 0;
+    padding: 0
+}
+* HTML #featuredYachtsContainer {
+    width: 610px;
+    margin-top: 3px;
+    margin-bottom: -50px
+}
+#featuredYachtsContainer {
+    padding-left: 2px;
+    margin-top: 3px;
+    float: right;
+    width: 630px;
+    height: 315px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 700
+}
+#featuredYachtsList {
+    position: relative;
+    display: block;
+    width: 460px;
+    height: 235px;
+    margin: 4px 15px 0
+}
+#featuredYachtsHR {
+    position: relative;
+    display: block;
+    background: transparent;
+    border-top: 1px solid #CCC;
+    width: 459px;
+    height: 1px;
+    margin: 1px 10px;
+    padding: 0
+}
+#featuredYachtsAd {
+    width: 201px;
+    height: 94px;
+    overflow: hidden;
+    font-size: 8.5pt;
+    color: #343434;
+    font-weight: 400;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    border-top-style: solid;
+    border-top-color: #b68649;
+    border-top-width: 1px
+}
+#featuredYachtThumb {
+    float: left;
+    padding-top: 4px;
+    padding-right: 8px
+}
+#featuredYachtDetails {
+    float: right;
+    width: 100px;
+    padding-top: 4px
+}
+#featuredYachtBroker {
+    width: 200px;
+    text-align: center
+}
+* HTML #AD_468X60 {
+    margin-top: 17px
+}
+#AD_468X60 {
+    float: left;
+    width: 468px;
+    height: 60px;
+    margin-top: 23px;
+    margin-left: 45px;
+    padding-left: 45px
+}
+* HTML table#yachtsearch-a {
+    margin: 0
+}
+table#yachtsearch-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff
+}
+table#yachtsearch-a {
+    background-image: url("/core/images/searchpanel-mid-bg.gif");
+    background-repeat: repeat-y
+}
+#yachtsearch-a td.mid-col {
+    padding: 3px 0 0 2px
+}
+#yachtsearch-a input {
+    font-size: 9pt;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px
+}
+.homeNewSearchInput {
+    width: 60px;
+    font-size: 10pt;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    color: gray
+}
+.homeNewSearchInputLong {
+    width: 153px;
+    font-size: 10pt;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    color: gray
+}
+#yachtsearch-a #savedSearchList {
+    width: 155px;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    color: gray
+}
+#yachtsearch-a #recent-search {
+    width: 145px;
+    color: gray;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+.dropdownSearch {
+    color: gray;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+table#yachtsearch-a table.new-row {
+    width: 162px;
+    margin: 0 0 0 12px;
+    background-color: #ac8950
+}
+#savedSearchListLabel {
+    font-size: 9pt;
+    margin-left: -4px;
+    font-weight: 900
+}
+#yachtsearch-a .recentsearch-row-td {
+    background-color: #ac8950;
+    background-position: left;
+    padding: 4px 4px 0 5px;
+    width: 163px
+}
+.recentsearch-row-td span {
+    color: #fff;
+    padding: 3px 0 0 5px;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+.recent-search-ttl {
+    color: #fff;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-right: 10px
+}
+#newSearchPanel {
+    margin-right: -5px;
+    float: left;
+    height: 330px;
+    width: 189px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-bottom: 58px;
+    color: #fff
+}
+* HTML #newSearchPanel {
+    padding-bottom: 73px
+}
+body.intl #yachtsearch-a #newSearchPanel th,
+#yachtsearch-a th {
+    padding: 0 0 0 3px;
+    text-align: left;
+    color: #fff;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700
+}
+.homeNewSearchSelect {
+    font-size: 9pt;
+    width: 155px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    color: gray;
+    margin: 0;
+    behavior: expression(window.dropdown_menu_hack!=null?window.dropdown_menu_hack(this): 0)
+}
+.homeNewSearchRadio {
+    padding: 0;
+    margin: 0;
+    height: 12px;
+    width: 12px
+}
+.small-to {
+    font-size: 8px;
+    color: #fff
+}
+.homeNewSearchText {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #fff
+}
+.homeNewSearchTitle {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #fff
+}
+.whitelink {
+    font-size: 10px;
+    line-height: 14pt;
+    font-weight: 800;
+    color: #fff
+}
+#savedSearchList {
+    width: 155px;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    color: gray
+}
+table#yachtsearch-brown {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/core/images/searchpanel-mid-bg.gif")
+}
+table#yachtsearch-brown a,
+table#yachtsearch-brown a:visited {
+    line-height: 13px;
+    font-weight: 700
+}
+#yachtsearch-brown td.mid-col {
+    padding: 3px 0 0 2px
+}
+#yachtsearch input {
+    font-size: 9pt;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px
+}
+#recent-search {
+    width: 145px;
+    color: gray;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+.dropdownSearch {
+    color: gray;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+.new-row {
+    background-repeat: repeat-y
+}
+#savedSearchListLabel {
+    font-size: 9pt
+}
+.recentsearch-row-td {
+    background-color: #ac8950;
+    background-position: left;
+    padding: 6px 4px 0 5px;
+    width: 162px
+}
+.recent-search-ttl {
+    color: #fff;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-right: 10px
+}
+.recentsearch-row-td span {
+    color: #fff;
+    padding: 3px 0 0 5px;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+* HTML #mrvbTab-A {
+    float: left;
+    width: 75px;
+    margin-top: -57px;
+    padding: 0
+}
+#mrvbTab-A {
+    float: left;
+    margin-top: -44px;
+    padding: 0;
+    width: 100px;
+    height: 275px
+}
+#mrvbTab-A img {
+    border: 0;
+    padding-bottom: 10px
+}
+#mrvbTab-A ul.topLevel {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 187px
+}
+#mrvbTab-A ul.topLevel {
+    background-image: url("/core/images/mrvb-gold-bg-b.png");
+    background-repeat: repeat-y
+}
+#mrvbTab-A ul.topLevel li {
+    margin: 0 auto
+}
+* HTML #mrvbTab-A ul.topLevel li.content {
+    width: 187px
+}
+#mrvbTab-A ul.topLevel li.content {
+    width: 187px;
+    height: 224px;
+    margin: 0 auto;
+    overflow: hidden
+}
+* HTML #mrvbTab-A ul.topLevel li.mrvbHeader {
+    width: 187px
+}
+#mrvbTab-A ul.topLevel li.mrvbHeader {
+    background-image: url("/core/images/mrvb-header-gold-bg-b.png");
+    background-repeat: no-repeat;
+    width: 187px;
+    text-align: center
+}
+#mrvbTab-A ul.topLevel li.mrvbHeader h1 {
+    margin: 0;
+    padding: 12px 0 4px 0;
+    font: 8.7pt Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #fff
+}
+* HTML #mrvbTab-A ul.topLevel li.mvrbBottom {
+    width: 187px
+}
+#mrvbTab-A ul.topLevel li.mvrbBottom {
+    width: 187px;
+    clear: both;
+    height: 20px
+}
+#mrvbTab-A ul.topLevel li.mvrbBottom {
+    background-position: 0 -20px;
+    background-image: url("/core/images/mrvb-gold-bottom-b.png");
+    background-repeat: no-repeat
+}
+* HTML #mrvbTab-A #mrvbTab-nav-wrapper {
+    float: none;
+    width: 100px;
+    margin: 0 auto
+}
+#mrvbTab-A #mrvbTab-nav-wrapper {
+    float: left;
+    padding: 0 0 20px 0;
+    width: 187px
+}
+* HTML #mrvbTab-A ul#mrvbTab-nav {
+    text-align: center
+}
+#mrvbTab-A ul#mrvbTab-nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    font: bold 8pt Verdana
+}
+* HTML #mrvbTab-A ul#mrvbTab-nav li {
+    text-align: center
+}
+#mrvbTab-A ul#mrvbTab-nav li {
+    display: inline
+}
+#mrvbTab-A #mrvbTab-nav li a {
+    cursor: pointer;
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+    z-index: 1;
+    padding: 3px 7px 3px 7px;
+    margin: 3px 1px 3px 1px;
+    color: #fff;
+    background-color: #828282
+}
+#mrvbTab-A #mrvbTab-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #828282
+}
+#mrvbTab-A #mrvbTab-nav li a.active {
+    background-color: #306983;
+    color: #fff
+}
+#mrvbTab-A #mrvbTab-nav li a.active {
+    border-bottom-color: white
+}
+#mrvbTab-A #mrvbTab-nav li a.selected:hover {
+    text-decoration: none
+}
+* HTML #mrvbTab-A .tab {
+    margin: 0 auto;
+    text-align: center
+}
+#mrvbTab-A .tab {
+    clear: both;
+    text-align: center
+}
+#mrvbTab-A .tab a {
+    margin: 0;
+    padding: 0
+}
+#mrvbTab-A .tab p {
+    margin: 0 auto;
+    font: 9pt Arial;
+    text-align: justify;
+    padding: 0 30px 0 30px
+}
+#mrvbTab-A #contentdivcontainer img {
+    margin-top: 25px;
+    text-align: center
+}
+#mrvbTab-A #contentdivcontainer {
+    *width: 100px;
+    width: 187px;
+    height: 200px;
+    margin-bottom: 1em
+}
+#mrvbTab-A #contentdivcontainer a {
+    color: #b68549
+}
+#mrvbTab-Srp {
+    margin: 0;
+    padding: 0;
+    width: 199px;
+    height: 195px
+}
+#mrvbTab-Srp img {
+    border: 0;
+    padding-bottom: 10px
+}
+#mrvbTab-Srp a {
+    cursor: pointer
+}
+#mrvbTab-Srp ul.topLevel {
+    list-style-type: none;
+    background-image: url("/core/images/srp-mrvb-bg.gif");
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%
+}
+#mrvbTab-Srp ul.topLevel li {
+    margin: 0 auto
+}
+#mrvbTab-Srp ul.topLevel li.content {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden
+}
+#mrvbTab-Srp ul.topLevel li.mrvbHeader {
+    width: 100%;
+    background-color: #66777f;
+    text-align: center
+}
+#mrvbTab-Srp ul.topLevel li.mrvbHeader h1 {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font: 8.7pt Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #fff
+}
+#mrvbTab-Srp ul.topLevel li.mvrbBottom {
+    width: 100%;
+    clear: both;
+    background-image: url("/core/images/srp-mrvb-bot.gif");
+    background-repeat: no-repeat;
+    height: 3px
+}
+#mrvbTab-Srp #mrvbTab-nav-wrapper {
+    float: left;
+    *margin: 0 auto;
+    padding: 0 0 20px 0;
+    *width: 150px;
+    width: 100%
+}
+#mrvbTab-Srp ul#mrvbTab-nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    list-style-type: none
+}
+#mrvbTab-Srp .tab {
+    clear: both;
+    text-align: center
+}
+#mrvbTab-Srp .tab p {
+    margin: 0 auto;
+    font: 9pt Arial;
+    text-align: justify;
+    padding: 0 30px 0 30px
+}
+#mrvbTab-Srp .tab a {
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+#mrvbTab-Srp #contentdivcontainer img {
+    margin-top: 25px;
+    text-align: center
+}
+* HTML #mrvbTab-Srp ul#mrvbTab-nav {
+    text-align: center
+}
+* HTML #mrvbTab-Srp ul#mrvbTab-nav li {
+    text-align: center
+}
+#mrvbTab-Srp ul#mrvbTab-nav {
+    width: 100%;
+    font: bold 8pt Verdana;
+    list-style-type: none
+}
+#mrvbTab-Srp ul#mrvbTab-nav li {
+    display: inline
+}
+#mrvbTab-Srp #mrvbTab-nav li a {
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+    z-index: 1;
+    padding: 3px 7px 3px 7px;
+    margin: 3px 1px 3px 1px;
+    color: #fff;
+    background-color: #a9a7a7
+}
+#mrvbTab-Srp #mrvbTab-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #828282
+}
+#mrvbTab-Srp #mrvbTab-nav li a.active {
+    background-color: #306983;
+    color: #fff
+}
+#mrvbTab-Srp #mrvbTab-nav li a.active {
+    border-bottom-color: white
+}
+#mrvbTab-Srp #mrvbTab-nav li a.selected:hover {
+    text-decoration: none
+}
+#mrvbTab-Srp #contentdivcontainer {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 1em
+}
+#mrvbTab-Srp #contentdivcontainer a {
+    color: #b68549
+}
+* HTML #browseContainerShort {
+    float: right;
+    width: 630px;
+    height: 285px;
+    margin-top: -55px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt
+}
+#browseContainerShort {
+    float: right;
+    width: 630px;
+    height: 285px;
+    margin-top: -23px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt
+}
+#browseTabs {
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #b68649;
+    letter-spacing: -1px;
+    line-height: 26px
+}
+.browsetableShort {
+    width: 600px;
+    padding: 0;
+    border: 0
+}
+.browsetableShort td {
+    padding: 6px 6px 6px 6px
+}
+#browseTab1 {
+    float: left;
+    width: 49px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab1-OFF.gif");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.browseLink1:link {
+    display: block;
+    width: 49px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink1:visited {
+    display: block;
+    width: 49px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink1:hover {
+    display: block;
+    width: 49px;
+    height: 32px;
+    background-image: url("/core/images/browseTab1-ON.gif");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #b68649
+}
+#browseTab1ON {
+    float: left;
+    width: 49px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab1-ON.gif");
+    background-repeat: no-repeat
+}
+#browseTab2 {
+    float: left;
+    width: 57px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab2-OFF.gif");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.browseLink2:link {
+    display: block;
+    width: 57px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink2:visited {
+    display: block;
+    width: 57px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink2:hover {
+    display: block;
+    width: 57px;
+    height: 32px;
+    background-image: url("/core/images/browseTab2-ON.gif");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #b68649
+}
+#browseTab2ON {
+    float: left;
+    width: 57px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab2-ON.gif");
+    background-repeat: no-repeat
+}
+#browseTab3 {
+    float: left;
+    width: 64px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab3-OFF.gif");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.browseLink3:link {
+    display: block;
+    width: 64px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink3:visited {
+    display: block;
+    width: 64px;
+    height: 32px;
+    cursor: pointer
+}
+.browseLink3:hover {
+    display: block;
+    width: 64px;
+    height: 32px;
+    background-image: url("/core/images/browseTab3-ON.gif");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #b68649
+}
+#browseTab3ON {
+    float: left;
+    width: 64px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    background-image: url("/core/images/browseTab3-ON.gif");
+    background-repeat: no-repeat
+}
+#browseYachtsShort {
+    position: absolute;
+    width: 620px;
+    height: 298px;
+    visibility: visible;
+    overflow: hidden
+}
+#browseBrokersShort {
+    position: absolute;
+    width: 620px;
+    height: 298px;
+    visibility: hidden;
+    overflow: hidden
+}
+#browseChartersShort {
+    position: absolute;
+    width: 620px;
+    height: 298px;
+    visibility: hidden;
+    overflow: hidden
+}
+#browseYachtsDetails,
+#browseBrokersDetails,
+#browseChartersDetails {
+    position: absolute;
+    top: 28px;
+    margin-left: 10px;
+    padding: 5px 0;
+    font-size: 9px
+}
+.browseDetailsTitle,
+.browseDetailsTitle a:link,
+.browseDetailsTitle a:visited,
+.browseDetailsTitle a:hover {
+    color: #b68649;
+    font-size: 8pt;
+    font-weight: bold;
+    line-height: 18px;
+    text-decoration: none;
+    cursor: default
+}
+a.browseDetails:link {
+    color: #b68649;
+    font: 9px
+}
+a.browseDetails:visited {
+    color: #b68649;
+    font: 9px
+}
+a.browseDetails:hover {
+    color: #08c;
+    font: 9px
+}
+* HTML #browseContainerFull {
+    clear: both;
+    float: left;
+    width: 815px;
+    height: 280px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: -55px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: no-repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px
+}
+#browseContainerFull {
+    float: left;
+    width: 826px;
+    height: 246px;
+    margin-top: -35px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px
+}
+.browsetableFull {
+    width: 800px;
+    padding: 0;
+    border: 0
+}
+.browsetableFull td {
+    padding: 6px 6px 6px 6px
+}
+#browseYachtsFull {
+    position: absolute;
+    width: 800px;
+    height: 298px;
+    visibility: visible;
+    overflow: hidden
+}
+#browseBrokersFull {
+    position: absolute;
+    width: 800px;
+    height: 298px;
+    visibility: hidden;
+    overflow: hidden
+}
+#browseChartersFull {
+    position: absolute;
+    width: 800px;
+    height: 298px;
+    visibility: hidden;
+    overflow: hidden
+}
+* HTML #boatWizardContainer {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 5px
+}
+#boatWizardContainer {
+    clear: both;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-bottom: 3px;
+    float: left;
+    width: 189px;
+    background-image: url("/core/images/BG_boatwizard.jpg");
+    color: #343434;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 11px
+}
+#boatWizardTitle,
+body.intl #boatWizardTitle {
+    display: block;
+    width: 169px;
+    margin: 5px 10px 0 10px;
+    color: #b68649;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12pt;
+    font-weight: 700
+}
+#boatWizardHR {
+    display: block;
+    width: 185px;
+    background: transparent;
+    border-top: 1px solid #CCC;
+    margin: 0;
+    padding: 0
+}
+* HTML #boatWizardDetails {
+    margin-top: -12px
+}
+#boatWizardDetails {
+    display: block;
+    width: 168px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px
+}
+body.intl #toolsnewsContainer {
+    margin-left: -4px
+}
+#toolsnewsContainer {
+    background-image: url("/core/images/toolsnewsBG.gif");
+    background-repeat: repeat-y;
+    float: left;
+    width: 826px;
+    margin-top: 10px;
+    margin-left: -2px
+}
+.toolsnewsTitle,
+.toolsnewsTitle a {
+    color: #5fcae4;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none
+}
+#toolsnewsContent {
+    margin-top: 0;
+    margin-bottom: 0
+}
+#toolsContainer {
+    position: relative;
+    background-color: #214953;
+    float: left;
+    width: 399px;
+    left: 12px;
+    height: 225px;
+    min-height: 225px;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 8pt
+}
+#newsContainer {
+    position: relative;
+    background-color: #016e85;
+    float: right;
+    width: 399px;
+    right: 10px;
+    height: 225px;
+    min-height: 225px;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 8pt
+}
+#seoContainer {
+    padding: 16px;
+    font-size: 7pt;
+    color: gray
+}
+#advancedSearchContainer {
+    width: 625px;
+    float: right;
+    height: 100%;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    background-color: #faf4ed;
+    color: #343434;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding: 0
+}
+#advancedSearchTable {
+    padding-left: 10px;
+    padding-right: 10px
+}
+#advancedSearchBrowse {
+    width: 200px;
+    min-height: 600px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    padding: 0 0 5px
+}
+#advancedSearchBrowse ol {
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+    list-style-image: url("/core/images/bullet.gif");
+    line-height: 14px;
+    vertical-align: middle
+}
+#advancedSearchBrowse li {
+    margin-left: -15px;
+    padding-left: -15px;
+    margin-right: 0;
+    padding-right: 0;
+    font-size: 7pt
+}
+#topSearch {
+    height: 6px;
+    width: 999px
+}
+#top_search {
+    height: 80px;
+    width: 999px;
+    float: left;
+    color: #e0e0e0;
+    margin: 0 0 2px;
+    padding: 3px 0
+}
+#top_nav a:link a:visited a:hover {
+    color: #f9e85b
+}
+#bottom_nav {
+    padding-top: 30px;
+    padding-left: 144px;
+    color: #66777f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 14px
+}
+#bottom_nav a {
+    color: #66777f;
+    text-decoration: none;
+    white-space: nowrap
+}
+#footerType {
+    color: #66777f
+}
+#footerType a {
+    color: #08C;
+    text-decoration: none;
+    font-size: 10px
+}
+#footerType a span.daa-logo {
+    background: url("/core/images/daa-logo.png") no-repeat 0 0;
+    position: absolute;
+    margin-left: -2px;
+    width: 16px;
+    height: 19px
+}
+#content_main {
+    width: 839px;
+    text-align: left;
+    float: left
+}
+#left_menu {
+    width: 200px;
+    background-color: #faf4ed;
+    float: left;
+    overflow: hidden
+}
+#search_left {
+    width: 200px;
+    background-color: #faf4ed;
+    float: left;
+    min-height: 600px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    padding: 0 0 5px
+}
+.left_breadcrumbs {
+    color: gray;
+    margin-left: 5px;
+    font-size: 8pt;
+    line-height: 22px
+}
+.dimTitleContainer {
+    width: 200px;
+    height: auto;
+    background-color: #66777f;
+    background-image: url("/core/images/arrowLeftNavDown.gif");
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    color: #FFF;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 8.5pt;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden
+}
+.dimTitleText {
+    padding-left: 20px;
+    padding-bottom: 4px;
+    color: #FFF
+}
+.dimRegText {
+    width: 180px;
+    color: #343434;
+    text-align: left;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 8.5pt;
+    padding-left: 5px;
+    margin-bottom: 5px
+}
+#personalBoatShopper {
+    padding-left: 10px
+}
+#content_left_clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden
+}
+#search_centerBG {
+    width: 625px;
+    float: left;
+    margin: 0 0 50px 8px
+}
+#search_center {
+    width: 625px;
+    height: 100%;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    background-color: #faf4ed;
+    color: #343434;
+    padding: 0
+}
+#centerBG {
+    position: relative;
+    float: left;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #343434;
+    width: 604px;
+    left: 10px
+}
+#main_content {
+    float: left;
+    background-color: #FFF;
+    background-image: url("/core/images/bg_content704.jpg");
+    background-repeat: repeat-y;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #343434;
+    width: auto;
+    letter-spacing: -0.5px
+}
+div.content_left_col {
+    float: left;
+    width: 250px;
+    margin: 0 10px 0 0
+}
+div.content_left_col img {
+    width: 250px;
+    float: left;
+    border: 0;
+    margin-bottom: 5px
+}
+div.content_right_col {
+    float: left;
+    width: auto
+}
+div.content_text {
+    line-height: 14px;
+    background-color: #cce8ff;
+    padding: 5px 5px 20px
+}
+div.content_text a {
+    color: #06f
+}
+#boat_links {
+    padding-top: 10px
+}
+#content_right {
+    width: 160px;
+    float: right;
+    padding: 0;
+    margin: 0
+}
+#content_right img {
+    border: 0
+}
+#content_footer {
+    width: 999px;
+    height: 131px;
+    margin-top: 10px;
+    margin-left: -2px;
+    background-repeat: no-repeat
+}
+#terms_of_use {
+    font-size: 9px;
+    margin: 2px
+}
+#copyright a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #030e84
+}
+.leftnav_heading_first {
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px
+}
+.leftnav_heading_first a:hover {
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px
+}
+.leftnav_heading {
+    border-bottom: 1px solid #b08348;
+    letter-spacing: -0.5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px
+}
+.leftnav_heading a:hover {
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px
+}
+#contact_phone {
+    float: right;
+    text-align: right
+}
+.byp_category {
+    text-decoration: underline
+}
+.predefinedSearchHeader {
+    font-weight: 700;
+    margin-bottom: 10px
+}
+table.predefinedSearchList td {
+    padding-right: 15px
+}
+table.predefinedSearchListColumn td {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #343434
+}
+.boatDetailsButton1,
+.boatDetailsButtonVbs {
+    background-image: url("/core/images/bg_boatDetailsButtons.jpg");
+    background-repeat: repeat-x;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+.boatDetailsButton1 a:link,
+.boatDetailsButtonVbs a:link {
+    text-decoration: none;
+    color: #0b3862;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+.boatDetailsButton1 a:visited,
+.boatDetailsButtonVbs a:visited {
+    text-decoration: none;
+    color: #0b3862;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+.boatDetailsButton1 a:hover,
+.boatDetailsButtonVbs a:hover {
+    text-decoration: none;
+    color: #08c;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+.boatDetailsButton2 {
+    background-image: url("/core/images/bg_boatDetailsButtons.jpg");
+    background-repeat: repeat-x;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+.boatDetailsButton2 a:link {
+    text-decoration: none;
+    color: #0b3862;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+.boatDetailsButton2 a:visited {
+    text-decoration: none;
+    color: #0b3862;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+.boatDetailsButton2 a:hover {
+    text-decoration: none;
+    color: #08c;
+    font-size: 11px;
+    font-weight: 700;
+    vertical-align: middle
+}
+#boatDetailsBG {
+    width: 805px;
+    background-color: #FFF;
+    background-image: url("/core/images/bg_content848.jpg");
+    background-repeat: repeat-y;
+    padding: 10px
+}
+a.errorMessage {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #030e84
+}
+a.errorTrace {
+    font-weight: 700;
+    text-decoration: none;
+    color: #C00
+}
+.validateErrorMessage {
+    font-size: 10px;
+    text-decoration: none;
+    color: #C00;
+    font-weight: 700
+}
+.validateErrorTitle {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #C00
+}
+.validateErrorLabel {
+    color: #C00
+}
+.signupBoxBlue {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFF;
+    background: #039;
+    text-align: center;
+    padding: 15px
+}
+.signupBoxGrey {
+    font-size: 15px;
+    font-weight: 700;
+    background: #EEE;
+    text-align: center;
+    padding: 15px
+}
+#memberIntlBody {
+    float: left;
+    width: 614px
+}
+#memberIntlRight {
+    background: #EEE;
+    float: right;
+    width: 180px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px
+}
+.debugTranslations {
+    color: #FFF;
+    background-color: #090;
+    font-weight: 700
+}
+a.debugTranslationsLink {
+    color: #0aa;
+    font-weight: 700
+}
+#searchResultsHeader {
+    position: relative;
+    width: 625px;
+    height: 23px;
+    background-color: #66777f;
+    color: #FFF;
+    font-size: 8.5pt;
+    padding: 0
+}
+#searchResultsHeader a {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: 700
+}
+#searchResultsHeader a:hover {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 700
+}
+#searchResultsTitle {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    width: 150px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    overflow: hidden
+}
+#searchResultsHeaderSort {
+    display: block;
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    width: 390px;
+    height: auto;
+    padding-top: 4px;
+    padding-right: 12px
+}
+#searchResultsHeaderFormatSelect {
+    width: 612px;
+    height: 28px;
+    padding-top: 8px;
+    margin-right: 2px
+}
+.searchResultsNavBlock {
+    background-color: #FFF;
+    font-size: 8pt;
+    color: #343434;
+    padding-top: 0;
+    padding-left: 13px
+}
+#searchResultsCountContainer {
+    position: relative;
+    float: left;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+    height: 21px;
+    margin: 0;
+    padding: 0
+}
+.searchResultsNav {
+    position: relative;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    text-align: right;
+    display: block;
+    width: 320px;
+    padding-top: 6px;
+    padding-right: 13px;
+    color: #343434;
+    text-decoration: none
+}
+.navCurrentPage {
+    font-weight: 700;
+    color: #343434;
+    text-decoration: none
+}
+tr.searchResultsTableHeader {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #FFF
+}
+.searchResultsTableBoatRowEnhanced {
+    background: #fae6cd
+}
+.searchResultsTableModelCell {
+    font-size: 11px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: gray
+}
+#searchResultsTableLegend {
+    padding: 20px
+}
+.active_field {
+    color: red
+}
+.searchResultsDetailsRow {
+    display: block;
+    height: auto;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    color: #fff
+}
+#searchResultsDetailsRowHeader {
+    background-color: #b68649;
+    position: relative;
+    display: block;
+    width: 625px;
+    min-height: 21px;
+    color: #FFF;
+    font-size: 8.5pt;
+    font-weight: 700;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+#searchResultsDetailsRowCheckBox {
+    width: 15px;
+    float: left;
+    vertical-align: top;
+    margin: 0;
+    padding: 0
+}
+.searchResultsDetailsRowCheckBox {
+    vertical-align: top;
+    padding: 0
+}
+#searchResultsDetailsRowStar {
+    width: 10px;
+    float: left;
+    vertical-align: top;
+    padding: 3px 0 0
+}
+#searchResultsDetailsRowTitle {
+    width: 310px;
+    float: left;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 3px 0 0 5px
+}
+#searchResultsDetailsRowTitle a:link {
+    color: #FFF;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-decoration: underline
+}
+#searchResultsDetailsRowTitle a:visited {
+    color: #FFF;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-decoration: underline
+}
+#searchResultsDetailsRowTitle a:hover {
+    color: #FFF;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-decoration: underline
+}
+#searchResultsDetailsRowPrice {
+    width: 190px;
+    float: left;
+    vertical-align: top;
+    text-align: right;
+    margin: 0;
+    padding: 3px 0 0 0
+}
+#searchResultsDetailsRowFinance {
+    background-image: url("/core/images/BG_financeit.gif");
+    background-repeat: no-repeat;
+    background-position: -10px;
+    width: 65px;
+    height: 21px;
+    float: right;
+    vertical-align: top;
+    text-align: center;
+    margin: 2px 2px 3px 2px;
+    line-height: 21px;
+    padding: 2px 2px 3px 1px
+}
+#searchResultsDetailsRowBody {
+    position: relative;
+    width: 625px;
+    height: auto;
+    float: left;
+    text-align: left
+}
+#searchResultsDetailsPhoto {
+    float: left;
+    width: 90px;
+    text-align: center;
+    margin: 0;
+    padding-right: 5px;
+    overflow: hidden
+}
+.searchResultsDetailsBodyNormal {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.searchResultsDetailsBodyEnhanced {
+    background-color: #fae6cd;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+#searchResultsDetailsPhotoEnhanced {
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin: 0;
+    padding-right: 5px
+}
+#detailsEnhancedPhoto {
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    margin: 0
+}
+#tableEnhancedPhoto {
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    margin: 0
+}
+#galleryEnhancedPhoto {
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    margin: 0
+}
+#searchResultsDetailsRowVideo {
+    width: 85px;
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-left: 0;
+    padding-right: 1px;
+    padding-bottom: 2px;
+    background-image: url("/core/images/BG_viewvideo.gif");
+    background-repeat: repeat-x;
+    background-position: center
+}
+#searchResultsGalleryRecordVideo {
+    width: 85px;
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-left: 0;
+    padding-right: 1px;
+    padding-bottom: 2px;
+    background-image: url("/core/images/BG_financeit.gif");
+    background-repeat: repeat-x;
+    background-position: center
+}
+a.moreInfoPhotos:hover {
+    font-size: 7pt;
+    color: #66777f;
+    font-weight: 700
+}
+#searchResultsDetailsData {
+    max-width: 400px;
+    float: left;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    font-weight: 500;
+    color: #343434;
+    margin: 0;
+    padding: 0
+}
+#searchResultsDetailsDataWrapper {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+table.searchResultsDetailsDataTable {
+    color: #343434;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 4px
+}
+td.searchResultsDetailsDataTableLabels {
+    font-size: 11px;
+    font-weight: 700
+}
+td.searchResultsDetailsDataTable {
+    font-size: 11px
+}
+#searchResultsDetailsContact {
+    position: relative;
+    float: right;
+    width: 120px;
+    right: 15px;
+    text-align: right;
+    font-size: 9pt
+}
+a.searchResultsDetailsContact:hover {
+    color: #b68649;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: underline
+}
+#searchResultsDetailsDescription {
+    color: #343434;
+    font-size: 11px;
+    position: relative;
+    width: 320px;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+a.searchResultsBoatDetails:hover {
+    color: #b68649;
+    font-weight: 200
+}
+a.tableResultsBoatDetails:hover {
+    color: #b68649;
+    font-weight: 700
+}
+.searchResultsDetailsCompanyName {
+    color: #b68649;
+    margin: 0;
+    padding: 0
+}
+.searchResultsDetailsPhone {
+    color: gray;
+    margin: 0;
+    padding: 0
+}
+a.sponsoredBoatsLink {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    color: #b68649
+}
+#sponsoredBoatsTitle {
+    display: block;
+    width: 100%;
+    height: 19px;
+    padding-top: 5px;
+    padding-left: 7px;
+    clear: both;
+    overflow: hidden
+}
+#sponsoredBoatsLeft {
+    display: block;
+    float: left;
+    width: 400px;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #b68649
+}
+#sponsoredBoatsRight {
+    display: block;
+    float: right;
+    text-align: right;
+    width: 400px;
+    font-size: 9pt;
+    font-weight: 400;
+    color: #b68649
+}
+table.sponsoredBoatsTable {
+    width: 833px;
+    background-color: #faf4ed;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px
+}
+.sponsoredBoatsTableSpacer {
+    height: 5px
+}
+td.sponsoredBoatsColumnSpacer {
+    width: 6px
+}
+td.sponsoredBoaPhotoWithLeftBorder {
+    vertical-align: top;
+    width: 90px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 7px;
+    padding-right: 7px
+}
+td.sponsoredBoatPhoto {
+    vertical-align: top;
+    width: 90px;
+    padding-left: 7px;
+    padding-right: 7px
+}
+td.sponsoredBoatPhotoWithLeftBorder {
+    vertical-align: top;
+    width: 90px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 7px;
+    padding-right: 7px
+}
+td.sponsoredBoatInfo {
+    vertical-align: top;
+    width: 120px;
+    padding-left: 5px;
+    font-size: 7pt
+}
+td.sponsoredBrokerage {
+    width: 210px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+a.sponsoredBrokerageLink {
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-decoration: none;
+    color: #08C
+}
+.paginationHeader {
+    width: 849px;
+    text-align: right
+}
+.pageCount {
+    text-align: left
+}
+td.pageNav a:hover {
+    text-align: right;
+    text-decoration: none;
+    color: #74c9e0
+}
+.yw {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8pt
+}
+.fine {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 7pt
+}
+.boats {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px
+}
+.boats_feature {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2
+}
+#formswitch {
+    width: 410px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    cursor: pointer
+}
+#formholder.off {
+    display: none
+}
+#formholder.on {
+    height: 300px;
+    width: 450px;
+    background: #FFF;
+    position: absolute;
+    left: 220px;
+    top: -5px;
+    z-index: 10;
+    border: 1px outset gray
+}
+.formfields {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 1%
+}
+.formmiddle input,
+.formmiddle label,
+.formfields p,
+.formmiddle select {
+    margin: 0;
+    padding: 0;
+    font-size: 11px
+}
+.formfields label,
+.formfields p,
+.formfields select {
+    font: 11px Arial, Tahoma, Verdana, sans-serif
+}
+.formfields label,
+.formfields p,
+.formfields a {
+    font-weight: 700;
+    font-size: 11px
+}
+.formmiddle input,
+.formfields select {
+    border: 1px solid gray;
+    font-size: 11px
+}
+#findit {
+    border: 0;
+    cursor: pointer;
+    background: url("/core/images/btn_FindIt_off.jpg") no-repeat;
+    width: 66px;
+    height: 19px;
+    left: 346px;
+    top: 5px
+}
+.formmiddle p {
+    left: 4px;
+    top: 40px;
+    font-size: 11px
+}
+#reset,
+#closeform {
+    position: absolute
+}
+#reset {
+    cursor: pointer;
+    left: 4px;
+    top: 250px
+}
+#advanced {
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+    left: 458px;
+    top: 85px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
+    border-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden
+}
+.advancedPopLink:link {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none
+}
+.advancedPopLink:visited {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none
+}
+.advancedPopLink:hover {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none
+}
+#closeform {
+    cursor: pointer;
+    line-height: 2.0;
+    background: url("/core/images/close.jpg") 100% 0 no-repeat;
+    width: 100px;
+    height: 20px;
+    right: 0;
+    top: 250px
+}
+.formmiddle input {
+    width: 75px;
+    height: 20px
+}
+.formmiddle select {
+    width: 60px
+}
+#keyword {
+    width: 336px;
+    left: 0;
+    top: 4px
+}
+#mfrmodel {
+    width: 100px
+}
+#labelcurrency {
+    width: 55px
+}
+#currency {
+    width: 125px;
+    left: 271px;
+    top: 198px
+}
+#cint {
+    width: 204px;
+    left: 90px;
+    top: 220px
+}
+#labelmfrmodel {
+    left: 4px;
+    top: 72px
+}
+#labellengfrom {
+    left: 4px;
+    top: 157px
+}
+#labellengto {
+    left: 170px;
+    top: 157px
+}
+#lengfrom {
+    left: 90px;
+    top: 154px;
+    height: 16px;
+    width: 68px
+}
+#lengto {
+    left: 194px;
+    top: 154px;
+    height: 16px;
+    width: 68px
+}
+#labelmeasure1 {
+    left: 288px;
+    top: 157px
+}
+#labelmeasure2 {
+    left: 344px;
+    top: 157px
+}
+#measure1 {
+    left: 244px;
+    top: 154px;
+    width: 68px
+}
+#measure2 {
+    left: 300px;
+    top: 154px;
+    width: 68px
+}
+#labelyearfrom {
+    left: 4px;
+    top: 179px
+}
+#labelyearto {
+    left: 170px;
+    top: 179px
+}
+#yearfrom {
+    left: 90px;
+    top: 176px;
+    height: 16px;
+    width: 68px
+}
+#yearto {
+    left: 194px;
+    top: 176px;
+    height: 16px;
+    width: 68px
+}
+#labelpricefrom {
+    left: 4px;
+    top: 201px
+}
+#labelpriceto {
+    left: 170px;
+    top: 201px
+}
+#pricefrom {
+    left: 90px;
+    top: 198px;
+    height: 16px;
+    width: 68px
+}
+#priceto {
+    left: 194px;
+    top: 198px;
+    height: 16px;
+    width: 68px
+}
+#labelcint {
+    left: 4px;
+    top: 223px
+}
+#searchResultsGallery {
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+.searchResultsGalleryRecord {
+    float: left;
+    width: 208px;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-width: 1px
+}
+.searchResultsGalleryRecordEnhanced {
+    float: left;
+    width: 208px;
+    vertical-align: top;
+    border: 1px;
+    margin: 0;
+    padding: 0;
+    background: #fae6cd
+}
+.searchResultsGalleryRecordCB {
+    float: left;
+    width: 20px;
+    min-width: 20px;
+    margin: 0;
+    padding: 0
+}
+.searchResultsGalleryRecordVideo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 90px
+}
+.searchResultsGalleryRecordInfo {
+    float: left;
+    width: 87px;
+    font-size: 8.5pt;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+a.top_search_left_submit:link,
+a.top_search_left_submit:visited,
+.dimTitleText a:link,
+.dimTitleText a:visited,
+a.searchResultsDetailsRowFinance:link,
+a.searchResultsDetailsRowFinance:visited {
+    color: #FFF;
+    text-decoration: none
+}
+.dimRegText a:link,
+.dimRegText a:visited,
+.navFirst,
+.navPrevious,
+.navPage,
+.navNext,
+.navLast {
+    color: #343434;
+    text-decoration: none
+}
+#bottom_nav a:hover,
+#footerType a:hover {
+    color: #b68649;
+    text-decoration: underline
+}
+a.featuredYachtLink:link {
+    text-decoration: none;
+    color: #b68649
+}
+a.featuredYachtLink:visited {
+    text-decoration: none;
+    color: #b68649
+}
+a.featuredYachtLink:active {
+    text-decoration: none;
+    color: #b68649
+}
+a.featuredYachtLink:hover {
+    text-decoration: none;
+    color: #08c
+}
+.browseLink1:link,
+.browseLink1:visited {
+    display: block;
+    width: 65px;
+    height: 37px;
+    cursor: pointer
+}
+.browseLink2:link,
+.browseLink2:visited {
+    display: block;
+    width: 76px;
+    height: 37px;
+    cursor: pointer
+}
+.browseLink3:link,
+.browseLink3:visited {
+    display: block;
+    width: 84px;
+    height: 37px;
+    cursor: pointer
+}
+.formfields a:hover {
+    color: #FFF
+}
+#toolsTitle,
+#newsTitle {
+    background-color: #FFF;
+    position: relative;
+    display: block;
+    width: 399px;
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    text-decoration: none
+}
+#toolsFeature1,
+#newsFeature1 {
+    float: left;
+    width: 165px;
+    margin-left: 10px
+}
+#toolsFeature2,
+#newsFeature2 {
+    float: right;
+    width: 175px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-left-width: 1px
+}
+.dimTitleText a:hover,
+.searchResultsDetailsRow a {
+    color: #FFF;
+    text-decoration: underline
+}
+.dimRegText a:hover,
+.searchResultsDetailsRow a:hover {
+    color: #343434;
+    text-decoration: underline
+}
+div.content_text div,
+#contact_addr {
+    float: left
+}
+.leftnav_heading_first a,
+.leftnav_heading a {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px
+}
+#searchResultsCount,
+#searchResultsChangeCount,
+a.searchResultsDetailsEmail:link,
+a.searchResultsDetailsEmail:visited,
+a.searchResultsDetailsEmail:hover {
+    color: #343434
+}
+a.videoBrochure:link {
+    height: auto;
+    font-size: 7pt;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 14px
+}
+a.videoBrochure:visited {
+    height: auto;
+    font-size: 7pt;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 14px
+}
+a.videoBrochure:active {
+    height: auto;
+    font-size: 7pt;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 14px
+}
+a.videoBrochure:hover {
+    height: auto;
+    font-size: 7pt;
+    font-weight: bold;
+    color: #f5eadc;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 14px
+}
+a.moreInfoPhotos:link,
+a.moreInfoPhotos:visited {
+    font-size: 7pt;
+    color: #08C;
+    font-weight: 700
+}
+#searchResultsDetailsData1,
+#searchResultsDetailsData2 {
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+    padding: 0
+}
+a.searchResultsDetailsContact:link,
+a.searchResultsDetailsContact:visited {
+    color: #b68649;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none
+}
+a.searchResultsBoatDetails:link,
+a.searchResultsBoatDetails:visited {
+    color: #08C;
+    font-weight: 200
+}
+a.tableResultsBoatDetails:link,
+a.tablehResultsBoatDetails:visited {
+    color: gray;
+    font-weight: 700
+}
+.searchResultsDetailsEmail,
+.searchResultsDetailsLogos,
+#tailRecordNav {
+    margin: 0;
+    padding: 0;
+    font-size: 12px
+}
+.searchResultsDetailsLogos {
+    width: 440px;
+    float: right
+}
+.searchResultsDetailsApprovedLogo {
+    float: left
+}
+.searchResultsDetailsBrokerageLogo {
+    float: right
+}
+td.pageNav a:link,
+td.pageNav a:active,
+td.pageNav a:visited {
+    text-align: right;
+    text-decoration: none;
+    color: #08C
+}
+.searchResultsGalleryRecordMedia,
+.searchResultsGalleryRecordPhoto {
+    float: left;
+    width: 95px;
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+#advancedSearchBreadcrumbs {
+    background-color: #fdfcf9
+}
+.keywordBreadcrumb {
+    margin-left: 5px;
+    font-size: 8pt;
+    font-weight: 600
+}
+.descriptorBreadcrumb {
+    margin-left: 5px;
+    font-size: 8pt;
+    font-weight: 600
+}
+#printemailThisBoat {
+    font-size: 12px;
+    text-align: right;
+    float: left;
+    width: 360px
+}
+#boatDetailRecordNav {
+    font-size: 12px;
+    float: left;
+    width: 430px
+}
+.whitelink {
+    font-size: 10px;
+    line-height: 14pt;
+    font-weight: 700
+}
+a.whiteLink:link {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: 700
+}
+a.whiteLink:visited {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: 700
+}
+a.whiteLink:hover {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: 700
+}
+#photo_credits_container {
+    position: absolute;
+    z-index: 2;
+    width: 282px;
+    height: 172px;
+    vertical-align: bottom
+}
+#photo_credits_black {
+    position: absolute;
+    z-index: 2;
+    color: #000;
+    font-weight: 600;
+    top: 125px;
+    left: 5px
+}
+#photo_credits_black a {
+    color: #000
+}
+#photo_credits_white {
+    position: absolute;
+    z-index: 3;
+    color: #FFF;
+    font-weight: 600;
+    top: 124px;
+    left: 4px
+}
+#photo_credits_white a {
+    color: #FFF
+}
+a.noscript:link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold
+}
+a.noscript:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold
+}
+a.noscript:hover {
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold
+}
+#featured-mainimage {
+    width: 976px;
+    height: 172px;
+    padding: 0
+}
+#featured {
+    font-family: Verdana;
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 10px;
+    margin-right: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 8pt;
+    z-index: 3
+}
+* HTML #featured-black,
+HTML>body #featured-black {
+    font-weight: 700
+}
+#featured-black {
+    font-family: Verdana;
+    color: #000;
+    font-weight: 600;
+    font-size: 8pt;
+    margin-left: 11px;
+    position: absolute;
+    margin-top: 126px;
+    z-index: 2
+}
+#welcome {
+    font-family: Georgia;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    width: 750px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 225px;
+    margin-right: 0
+}
+#recentsearch {
+    margin: 10px auto;
+    text-align: center;
+    width: 600px;
+    background-color: #e7dbcb;
+    padding: 5px 0 5px 0
+}
+#recentsearch form {
+    padding: 5px 0 5px 0
+}
+#recentsearch form select {
+    width: 375px
+}
+* HTML body.intl #boatWizardContainer {
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 5px
+}
+body.intl #boatWizardContainer {
+    float: left;
+    padding-bottom: 30px;
+    margin-left: 0;
+    margin-bottom: 10px
+}
+* HTML body.intl #AD_468X60 {
+    margin-bottom: 10px
+}
+body.intl #AD_468X60 {
+    float: left;
+    padding-left: 20px
+}
+* HTML body.intl #browseContainer {
+    padding-top: 5px;
+    width: 811px
+}
+#browseLabel,
+body.intl #browseLabel {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    padding-top: 5px;
+    margin-left: 4px;
+    color: #b68649;
+    text-transform: capitalize;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    overflow: hidden
+}
+#browseContainer {
+    width: 810px;
+    height: 210px;
+    margin-top: 15px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px
+}
+body.intl #browseContainer {
+    clear: both;
+    float: left;
+    width: 815px;
+    height: 210px;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-image: url("/core/images/BG_featuredyachts.jpg");
+    background-repeat: no-repeat;
+    color: #b68649;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px
+}
+* HTML body.intl #featuredYachtsContainer {
+    height: 340px;
+    background-repeat: repeat-y
+}
+* HTML body.intl #featuredYachtsAd {
+    width: 201px;
+    height: 90px;
+    overflow: hidden;
+    font-size: 8.5pt;
+    color: #343434;
+    font-weight: 400;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    border-top-style: solid;
+    border-top-color: #b68649;
+    border-top-width: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+body.intl #featuredYachtsContainer {
+    height: 340px;
+    background-repeat: repeat-y
+}
+body.intl .whitelink {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700
+}
+.homeNewSearchSubmit {
+    width: 67px;
+    height: 20px;
+    padding: 3px 10px 6px 8px;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: 800;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+body.intl .homeNewSearchSubmit {
+    width: 67px;
+    height: 20px;
+    padding: 3px 10px 10px 8px;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: 800;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("/core/images/blank_submit_button.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.homeNewSearchSubmit:hover {
+    color: #b68649
+}
+.homeNewSearchText {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #fff
+}
+.homeNewSearchTitle {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #fff
+}
+body.intl #featuredYachtsAd {
+    width: 201px;
+    height: 87px;
+    overflow: hidden;
+    font-size: 8.5pt;
+    color: #343434;
+    font-weight: 400;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border-top-style: solid;
+    border-top-color: #b68649;
+    border-top-width: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+#headerContainer .mktLogoTxt {
+    position: absolute;
+    top: 12px;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+#top_logo {
+    height: 80px;
+    width: 390px;
+    position: absolute;
+    top: 8px
+}
+#top_small_menu img.flag {
+    vertical-align: middle;
+    margin-right: -1px
+}
+#top_menu_mktTxt {
+    position: absolute;
+    top: 58px;
+    right: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #fff
+}
+#top_menu_mktTxt a:link,
+#top_menu_mktTxt a:hover,
+#top_menu_mktTxt a:visited {
+    color: #fff
+}
+:focus {
+    outline: 0
+}
+body.home #frame {
+    margin: 0 auto
+}
+body.home #content_footer {
+    width: auto;
+    margin-left: 0
+}
+.visualClear {
+    clear: both
+}
+#leftColumn {
+    float: left;
+    width: 830px
+}
+#rightColumn {
+    float: right;
+    width: 160px;
+    padding: 4px 0 10px 0;
+    margin-right: 4px;
+    _margin-right: 2px
+}
+.newRow {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 5px;
+    zoom: 1
+}
+#content_footer {
+    clear: both
+}
+#hp_largefeatured {
+    background: url("/core/images/bg_home_featured.png") no-repeat left top;
+    width: 9999px;
+    height: 198px
+}
+#hp_largefeatured .container {
+    background: no-repeat left top;
+    width: 975px;
+    height: 172px;
+    position: relative;
+    top: 12px;
+    left: 12px
+}
+#hp_largefeatured .content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 16px
+}
+#hp_largefeatured .content .contentWhite {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    position: relative;
+    z-index: 10
+}
+#hp_largefeatured .content .linkBtn {
+    background: #343434 url("/core/images/bg_viewbtn.png") no-repeat left top;
+    padding: 4px 20px 5px 20px;
+    border: 1px solid #bbb;
+    margin-top: 5px;
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+    float: right
+}
+#hp_largefeatured .content .contentBlack {
+    position: absolute;
+    top: 11px;
+    right: 9px;
+    _right: 10px;
+    color: #000;
+    text-align: right
+}
+#yachtSearchContainer {
+    width: 190px;
+    color: #fff;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    float: left
+}
+#yachtSearchContainer .white {
+    background: url("/core/images/ywsearch_middle_white.gif") repeat-y left top
+}
+#yachtSearchContainer .brown {
+    background: url("/core/images/ywsearch_middle_brown.gif") repeat-y left top
+}
+#yachtSearchContainer a,
+#yachtSearchContainer a:visited,
+#yachtSearchContainer a:hover {
+    color: #fff;
+    text-decoration: underline
+}
+#yachtSearchContainer .searchTop,
+#yachtSearchContainer .searchBottom {
+    height: 17px;
+    clear: both
+}
+#yachtSearchContainer .white .searchTop {
+    background: url("/core/images/ywsearch_top_white.png") no-repeat left top
+}
+#yachtSearchContainer .brown .searchTop {
+    background: url("/core/images/ywsearch_top_brown.png") no-repeat left top
+}
+#yachtSearchContainer .white .searchBottom {
+    background: url("/core/images/ywsearch_bottom_white.gif") no-repeat left top
+}
+#yachtSearchContainer .brown .searchBottom {
+    background: url("/core/images/ywsearch_bottom_brown.png") no-repeat left top
+}
+#yachtSearchContainer form {
+    margin: 0;
+    padding: 0
+}
+#yachtSearchContainer fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0 11px
+}
+#yachtSearchContainer h1,
+#yachtSearchContainer h2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1px 4px 0 5px;
+    color: #fff
+}
+#yachtSearchContainer ul {
+    margin: 0;
+    padding: 0 5px;
+    list-style: none
+}
+#yachtSearchContainer.brown ul {
+    padding: 0
+}
+#yachtSearchContainer ul li {
+    padding: 3px 0 5px 0;
+    margin: 0
+}
+#yachtSearchContainer .mySavedSearches {
+    background-color: #ac8950;
+    margin: 0;
+    padding: 3px 0 5px 6px
+}
+#yachtSearchContainer .brown .mySavedSearches {
+    margin: 0 -6px 0 -7px;
+    padding-left: 12px
+}
+#yachtSearchContainer input,
+#yachtSearchContainer select {
+    border: 1px solid gray;
+    color: #4e4e4e;
+    margin: 0;
+    font: 12px Arial, Helvetica, sans-serif
+}
+#yachtSearchContainer input {
+    width: 154px
+}
+#yachtSearchContainer select {
+    width: 158px
+}
+#yachtSearchContainer input.typeShortNum {
+    width: 60px
+}
+#yachtSearchContainer input.typeRadio {
+    border: 0;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    *margin: -3px 0;
+    vertical-align: top;
+    vertical-align: bottom\9;
+    *vertical-align: middle;
+    margin-right: 7px;
+    margin-right: 3px\9
+}
+li.length input#luom-ft,
+li.length input#luom-m {
+    padding-left: 15px;
+    padding-left: 5px\9;
+    margin-left: 15px
+}
+#yachtSearchContainer .conditionPower ul {
+    width: 65px;
+    float: left;
+    margin-bottom: 3px;
+    margin-left: 2px
+}
+#yachtSearchContainer .conditionPower ul li {
+    margin: 0;
+    padding: 3px 0
+}
+#yachtSearchContainer .condition {
+    padding-left: 0;
+    margin-left: -3px
+}
+#yachtSearchContainer .power {
+    border-left: 1px dashed #fff
+}
+#yachtSearchContainer .to {
+    font-size: 9px
+}
+#yachtSearchContainer .length {
+    clear: both
+}
+#yachtSearchContainer .price .label,
+#yachtSearchContainer .intPrice .label,
+#yachtSearchContainer .year .label {
+    display: block
+}
+#yachtSearchContainer .submit {
+    font-size: 11px
+}
+#yachtSearchContainer .submit a.basic,
+#yachtSearchContainer .submit button.basic {
+    color: #fff;
+    background: #031b3f url("/core/images/bg_submitbtn.gif") repeat-x left top;
+    padding: 2px 10px 3px 10px;
+    border: 0;
+    border-top: 1px solid #c1d4e3;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    cursor: pointer
+}
+#yachtSearchContainer .submit a.reset {
+    color: #fff;
+    background: #031b3f url("/core/images/bg_submitbtn.gif") repeat-x left top;
+    padding: 2px 10px 3px 10px;
+    margin-left: 10px;
+    border: 0;
+    border-top: 1px solid #c1d4e3;
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    cursor: pointer
+}
+#yachtSearchContainer .submit a.basic:hover,
+#yachtSearchContainer .submit button.basic:hover,
+#yachtSearchContainer .submit a.reset:hover {
+    color: #b68649
+}
+#yachtSearchContainer .submit a.advanced {
+    float: right;
+    line-height: 1em;
+    margin-left: 10px;
+    position: relative;
+    text-align: right;
+    top: -3px;
+    width: 85px;
+    margin-bottom: 7px
+}
+#yachtSearchContainer .clearForm {
+    font-size: 11px;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    *position: absolute;
+    *white-space: nowrap
+}
+#yachtSearchContainer .clearForm a.resetRight {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    *right: -158px;
+    cursor: pointer
+}
+#featuredBoats {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+    border: 1px solid #e4d1b7;
+    background-color: #fff;
+    width: 607px;
+    margin: 4px 0 0 6px;
+    padding: 10px
+}
+#featuredBoats h2 {
+    margin: 0;
+    color: #b68649;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt
+}
+#featuredBoats ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+#featuredBoats ul li {
+    border-top: 1px solid #b68649;
+    padding: 10px 10px 0 0;
+    width: 192px;
+    height: 101px;
+    *height: 107px;
+    float: left;
+    font-size: 10px;
+    line-height: 1.15em
+}
+#featuredBoats a {
+    text-decoration: none;
+    font-weight: bold
+}
+#featuredBoats ul li img {
+    float: left;
+    border: 0;
+    margin-right: 5px;
+    margin-bottom: 2px
+}
+#featuredBoats .details {
+    margin-left: 95px
+}
+#featuredBoats .featuredBroker {
+    clear: both;
+    text-align: center;
+    padding-top: 4px
+}
+#featuredBoats .featuredBroker a {
+    font-weight: normal
+}
+#yachtSearchContainer .intSearch ul li,
+#yachtSearchContainer .intSearchSavedSearch ul li {
+    padding-bottom: 0
+}
+#yachtSearchContainer .savedSearch .conditionPower ul li,
+#yachtSearchContainer .intSearchSavedSearch .conditionPower ul li {
+    padding: 0
+}
+#featuredBoats .savedSearch ul li {
+    height: 109px;
+    *height: 115px
+}
+#featuredBoats .intSearch ul li {
+    height: 88px;
+    *height: 93px
+}
+#featuredBoats .intSearchSavedSearch ul li {
+    height: 98px;
+    *height: 105px
+}
+#yachtSearchContainer .intPrice {
+    display: none
+}
+#yachtSearchContainer .country {
+    display: none
+}
+#yachtSearchContainer .currency {
+    display: none
+}
+#recentlyViewedBoats {
+    width: 190px;
+    font: 10px Verdana, Geneva, sans-serif;
+    float: left
+}
+#recentlyViewedBoats .white {
+    background: url(/core/images/ywsearch_middle_viewed_white.gif) repeat-y left top
+}
+#recentlyViewedBoats .brown {
+    background: url(/core/images/ywsearch_middle_viewed_brown.gif) repeat-y left top
+}
+#recentlyViewedBoats .viewedBottom {
+    height: 17px;
+    clear: both
+}
+#recentlyViewedBoats .white .viewedTop {
+    background: url(/core/images/ywsearch_top_white.png) no-repeat left top;
+    _zoom: 1
+}
+#recentlyViewedBoats .brown .viewedTop {
+    background: url(/core/images/ywsearch_top_brown.png) no-repeat left top
+}
+#recentlyViewedBoats .white .viewedBottom {
+    background: url(/core/images/ywsearch_bottom_viewed_white.png) no-repeat left top
+}
+#recentlyViewedBoats .brown .viewedBottom {
+    background: url(/core/images/ywsearch_bottom_viewed_brown.png) no-repeat left top
+}
+#recentlyViewedBoats h3 {
+    margin: 0;
+    padding: 0 15px 2px 15px;
+    font: bold 13px Arial, Helvetica, sans-serif;
+    color: #fff
+}
+#recentlyViewedBoats .white h3 {
+    padding-top: 15px
+}
+#recentlyViewedBoats .brown h3 {
+    padding-top: 7px
+}
+#recentlyViewedBoats .content {
+    padding: 5px 20px 0 20px;
+    height: 201px
+}
+#recentlyViewedBoats .brown .content {
+    height: 210px
+}
+#recentlyViewedBoats .content a {
+    font-weight: bold;
+    text-decoration: none
+}
+#recentlyViewedBoats ul {
+    padding: 0;
+    margin: 2px 0;
+    list-style: none;
+    text-align: center
+}
+#recentlyViewedBoats ul li {
+    display: inline;
+    *padding: 2px 1px 1px 1px
+}
+#recentlyViewedBoats ul li a,
+#recentlyViewedBoats ul li a:visited {
+    display: -moz-inline-box;
+    display: inline-block;
+    color: #fff;
+    background-color: #ababab;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 10px 1px 10px;
+    *padding: 2px 10px 1px 10px;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    cursor: pointer
+}
+#recentlyViewedBoats ul li a.on,
+#recentlyViewedBoats ul li a.active {
+    background-color: #306983
+}
+#recentlyViewedBoats ul li a.on:visited {
+    background-color: #4f4f4f
+}
+#recentlyViewedBoats ul li a:hover,
+#recentlyViewedBoats ul li a.on:hover {
+    background-color: #727272
+}
+#recentlyViewedBoats img {
+    display: block;
+    margin: 5px auto;
+    border: 0
+}
+#recentlyViewedBoats .subSection {
+    border-top: 1px solid #bbb;
+    margin-top: 7px;
+    font: 11px Arial, Helvetica, sans-serif
+}
+#recentlyViewedBoats .subSection h4 {
+    color: #c6a270;
+    margin: 7px 0;
+    font: bold 11px Verdana, Geneva, sans-serif
+}
+#recentlyViewedBoats .subSection a {
+    font-weight: normal;
+    text-decoration: underline
+}
+#buySell {
+    width: 160px;
+    float: left;
+    margin: 3px 6px 3px 4px;
+    _margin-left: 2px;
+    height: 230px;
+    padding: 10px
+}
+.hpNewsBlock {
+    background-color: #fff;
+    border: 1px solid #e4d1b7;
+    padding: 10px 10px 0 10px;
+    width: 132px;
+    float: left;
+    margin: 3px 4px 0 6px;
+    line-height: 1.30em;
+    height: 238px
+}
+.hpNewsBlock span.classH2 {
+    margin: 0 0 10px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #b68649;
+    border-bottom: 1px solid #b68649;
+    padding-bottom: 2px;
+    display: block
+}
+.hpNewsBlock h2 {
+    margin: 0 0 10px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #b68649;
+    border-bottom: 1px solid #b68649;
+    padding-bottom: 2px
+}
+.hpNewsBlock span.classH4 {
+    margin: 7px 0 3px 0;
+    font-size: 12px;
+    color: #5f5f5f;
+    font-weight: bold
+}
+.hpNewsBlock h4 {
+    margin: 7px 0 3px 0;
+    font-size: 12px;
+    color: #5f5f5f
+}
+.hpArticlesBlock {
+    background-color: #fff;
+    border: 1px solid #e4d1b7;
+    padding: 10px 10px 0 10px;
+    width: 295px;
+    height: 240px;
+    float: left;
+    margin: 2px 4px 0 6px;
+    line-height: 1.30em
+}
+.hpArticlesBlock h2 {
+    margin: 0 0 10px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #b68649;
+    border-bottom: 1px solid #b68649;
+    padding-bottom: 2px
+}
+.hpArticlesBlock span.sph4,
+.hpArticlesBlock h4 {
+    margin: 7px 0 3px 0;
+    font-size: 12px;
+    color: #5f5f5f
+}
+img.ywhomepagetn {
+    border: 0;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px
+}
+.hpArticlesBlock p {
+    margin-top: 0;
+    margin-bottom: 12px
+}
+#socialMedia {
+    text-align: right;
+    color: #b68649;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 5px -20px 0;
+    float: right;
+    position: relative;
+    top: 10px;
+    z-index: 3
+}
+#socialMedia ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline
+}
+#socialMedia ul li {
+    display: inline
+}
+#socialMedia img {
+    border: 0;
+    vertical-align: bottom
+}
+#browseSection {
+    width: 821px;
+    margin-left: 4px;
+    margin-top: 5px;
+    position: relative;
+    clear: both
+}
+#browseSection ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+#browseSection ul.tabs li {
+    float: left;
+    margin-right: -1px
+}
+#browseSection ul.tabs h3,
+#browseSection ul.tabs h4 {
+    margin: 0
+}
+#browseSection ul.tabs h3 a,
+#browseSection ul.tabs h4 a {
+    text-decoration: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    background-color: #f7efe7;
+    border: 1px solid #e4d1b7;
+    font: bold 10pt Verdana, Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 3
+}
+#browseSection ul.tabs h3 a:hover,
+#browseSection ul.tabs h4 a:hover {
+    background-color: #08C;
+    color: #fff;
+    border-bottom: 1px solid #08C
+}
+#browseSection ul.tabs h3 a.on,
+#browseSection ul.tabs h4 a.on {
+    background-color: #fffefc;
+    border-bottom: 1px solid #fffefc;
+    color: #b68649
+}
+#browseSection .content {
+    clear: both;
+    border: 1px solid #e4d1b7;
+    position: relative;
+    top: -1px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fffefc
+}
+#browseYachts .content,
+#browseBrokers .content,
+#browseCharters .content {
+    _height: 196px;
+    min-height: 196px
+}
+#browseSection .content p,
+#browseSection .content h4 {
+    margin: 0 0 10px 0;
+    font: bold 8pt Verdana, Arial, Helvetica, sans-serif
+}
+#browseSection table {
+    border-collapse: collapse
+}
+#browseSection th {
+    vertical-align: top;
+    padding: 0 0 10px 0;
+    text-align: right;
+    white-space: nowrap;
+    color: #b68649 
+}
+#browseSection th a,
+#browseSection th a:hover {
+    text-decoration: none;
+    cursor: default;
+    color: #b68649
+}
+#browseSection td {
+    vertical-align: top;
+    padding: 0 0 10px 5px;
+    line-height: 1.5em
+}
+#browseSection td a {
+    font: 8pt Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: underline
+}
+#browseSection table ul li {
+    display: inline
+}
+#browseBrokers,
+#browseCharters {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.secondaryBox {
+    background-color: #faf5ee;
+    padding: 5px 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 8.5pt;
+    clear: both
+}
+.secondaryBox h5,
+.secondaryBox h6,
+.secondaryBox h4,
+.secondaryBox h3 {
+    font: bold 10pt Verdana, Arial, Helvetica, sans-serif;
+    color: #b68649;
+    border-bottom: 1px solid #b68649;
+    margin: 0
+}
+.secondaryBox p {
+    margin: 7px 0
+}
+.secondaryBox a {
+    text-decoration: underline
+}
+.secondaryBox a.noLinkColor {
+    color: #b68649
+}
+.secondaryBox a.noLinkColor:hover {
+    color: #08C
+}
+.secondaryBox a.noLinkColor:active {
+    color: #b68649
+}
+.secondaryBox .subSection {
+    border-top: 1px solid #bbb;
+    margin-top: 7px;
+    font: 8pt Verdana, Arial, Helvetica, sans-serif
+}
+.secondaryBox .subSection h4 {
+    color: #c6a270;
+    margin: 7px 0;
+    font: bold 11px Verdana, Geneva, sans-serif;
+    border: 0
+}
+.secondaryBox .subSection a {
+    font-weight: normal;
+    text-decoration: underline
+}
+.secondaryBox ul {
+    margin: 0 15px;
+    padding: 0
+}
+.secondaryBox ul li {
+    padding: 5px 0
+}
+#intro {
+    clear: both;
+    margin: 5px 5px 10px 4px;
+    *margin-bottom: 0;
+    color: #848484;
+    font: 7.5pt Verdana, Arial, Helvetica, sans-serif
+}
+#boxAd {
+    float: left;
+    margin: 3px 0 0 7px;
+    position: relative
+}
+#boxAd img {
+    border: 0;
+    position: absolute
+}
+#towerAd {
+    width: 160px
+}
+#towerAd img {
+    border: 0
+}
+.bottomAd {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px
+}
+.bottomAd img {
+    border: 0
+}
+.ie6MsgHomeBg {
+    background: url(/core/images/bg_content_hp.jpg) repeat-x left 95px
+}
+#ie6msg {
+    padding: 7px;
+    background-color: #fffdf1;
+    border: 3px solid #fcf3b0;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 13px
+}
+#ie6msg a,
+#ie6msg a:visited {
+    color: #08c;
+    text-decoration: none
+}
+#ie6msg a:hover {
+    color: #b68649;
+    text-decoration: underline
+}
+#ie6msg ul {
+    margin-top: 5px
+}
+#ie6msg ul li {
+    display: inline;
+    padding-right: 15px
+}
+.ie8 {
+    background: url(/core/images/sprite-browsers.png) no-repeat left top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 3px
+}
+.firefox {
+    background: url(/core/images/sprite-browsers.png) no-repeat -66px top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 3px
+}
+.chrome {
+    background: url(/core/images/sprite-browsers.png) no-repeat -132px top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 3px
+}
+.safari {
+    background: url(/core/images/sprite-browsers.png) no-repeat -198px top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 3px
+}
+.opera {
+    background: url(/core/images/sprite-browsers.png) no-repeat -264px top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 3px
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    #featuredBoats .featuredBroker {
+        padding-top: 7px
+    }
+}
+.previewThumb-content {
+    position: absolute;
+    padding: 20px;
+    border: 2px solid #b68649;
+    background-color: #fff;
+    z-index: 100;
+    white-space: none;
+    width: 250px;
+    min-height: 250px;
+    text-align: center;
+    box-shadow: 1px 1px 4px #523c21;
+    border-radius: 5px
+}
+.previewThumb-content .previewSpinner {
+    margin-top: 85px
+}
+#previewDetails .brief {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #b68649;
+    padding-bottom: 5px
+}
+.previewThumb-content .beaker {
+    background: url('/core/images/beaker-left.png') no-repeat left;
+    height: 34px;
+    width: 17px;
+    position: absolute;
+    top: 30px;
+    left: -17px
+}
+#previewDetails img {
+    margin-bottom: 5px;
+    border: 0
+}
+#previewDetails .makeModel,
+#previewDetails .price {
+    font-size: 18px;
+    font-weight: bold
+}
+#previewDetails .price {
+    font-weight: normal
+}
+#previewDetails .details {
+    font-size: 13px;
+    text-align: left;
+    float: left;
+    width: 150px;
+    margin-left: 0
+}
+.index2 #previewDetails .details {
+    width: auto;
+    text-align: center;
+    float: none
+}
+#previewDetails .featuredBroker {
+    text-align: left;
+    padding-top: 0;
+    clear: none
+}
+.index2 #previewDetails .featuredBroker {
+    text-align: center
+}
+#previewDetails .more {
+    float: right;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    background: url('/core/images/gallery-cta-buttonbg.png') repeat-x scroll 0 0 #395b87;
+    border: 1px solid #578acd;
+    margin: 2px 0 0 2px;
+    padding: 3px 10px 4px;
+    text-decoration: none
+}
+#previewDetails .more:link,
+#previewDetails .more:visited,
+#previewDetails .more:hover {
+    color: #fff;
+    border-radius: 15px
+}
+#previewDetails .more:hover {
+    text-decoration: underline
+}
+#mainMenuContainer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    float: right;
+    clear: right;
+    border-color: #b1bbc2;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 9px
+}
+.menu {
+    width: auto;
+    height: 22px;
+    position: relative;
+    z-index: 9;
+    background-image: url("/core/images/bg_mainmenu.jpg");
+    background-repeat: repeat-x
+}
+* html .menu {
+    width: 537px;
+    w\idth: 536px
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+.menu ul ul {
+    width: auto
+}
+.menu li {
+    float: left;
+    width: auto;
+    position: relative
+}
+.menu a,
+.menu a:visited {
+    display: block;
+    width: auto;
+    height: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center
+}
+* html .menu a,
+* html .menu a:visited {
+    width: auto;
+    w\idth: 60px
+}
+* html .menu a,
+* html .menu a:hover {
+    color: #bc985e
+}
+.menu ul ul a.drop,
+.menu ul ul a.drop:visited {
+    background: #2c2c2c;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400
+}
+.menu ul ul a.drop:hover {
+    background: #2c2c2c;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400
+}
+.menu ul ul:hover>a.drop {
+    background: #2c2c2c;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400
+}
+.menu ul ul ul a,
+.menu ul ul ul a:visited {
+    background: #2c2c2c;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400
+}
+.menu ul ul ul a:hover {
+    background: #2c2c2c;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700
+}
+.menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    top: 22px;
+    left: 0;
+    width: 90px;
+    border-top: 1px solid #b1bbc2
+}
+* html .menu ul ul {
+    top: 22px;
+    t\op: 22px
+}
+.menu ul ul ul {
+    left: 120px;
+    top: -1px;
+    width: 120px
+}
+.menu ul ul ul.left {
+    left: -100px
+}
+.menu table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-collapse: collapse
+}
+.menu ul ul a,
+.menu ul ul a:visited {
+    background: #2c2c2c;
+    font-size: 11px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+    height: auto;
+    line-height: 1em;
+    width: 130px;
+    text-transform: capitalize;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    z-index: 9
+}
+* html .menu ul ul a,
+* html .menu ul ul a:visited {
+    width: 150px;
+    w\idth: 128px;
+    z-index: 9
+}
+* html .menu ul ul a,
+* html .menu ul ul a:hover {
+    width: 150px;
+    w\idth: 128px;
+    color: #bc985e;
+    z-index: 9
+}
+.menu a:hover,
+.menu ul ul a:hover {
+    color: #ddd;
+    background-color: black
+}
+.menu:hover>a,
+.menu ul ul:hover>a {
+    color: #bc985e;
+    background-color: black;
+    font-weight: 400
+}
+.menu ul li:hover ul,
+.menu ul a:hover ul {
+    visibility: visible;
+    z-index: 9
+}
+.menu ul:hover ul ul {
+    visibility: hidden;
+    z-index: 9
+}
+.menu ul:hover ul:hover ul {
+    visibility: visible;
+    z-index: 9
+}
+#mainMenuContainer .menu a,
+#mainMenuContainer .menu a:visited {
+    color: #fff
+}
+#mainMenuContainer .menu a:hover {
+    color: #bc985e
+}
+@media screen and (min-width: 1135px) {
+    #headerContainer,
+    #logo_header {
+        width: 1135px;
+        margin: 0 auto
+    }
+}
+#hp_largefeatured {
+    background: url("/core/images/bg_home_featured_wide.png") no-repeat left top;
+    margin: 0 auto;
+    text-align: center
+}
+#hp_largefeatured .container {
+    width: 1111px;
+    left: 14px
+}
+#towerAd,
+div#content_right {
+    text-align: center;
+    width: 300px
+}
+body #frame {
+    width: 1140px
+}
+div#content_main {
+    clear: left
+}
+div#intro {
+    width: 1140px
+}
+div#rightColumn,
+div#content_right {
+    float: right;
+    width: 300px
+}
+div#features_intro {
+    width: 1140px
+}
+div#features_intro_left {
+    width: 580px
+}
+body.home #content_footer {
+    margin-left: -2px
+}
+#content_footer {
+    width: 1140px
+}
+

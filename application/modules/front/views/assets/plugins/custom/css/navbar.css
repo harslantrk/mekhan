@@ -1,0 +1,72 @@
+body .main-menu .fa-bars {
+	display: none;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+body .main-menu ul {
+	padding: 0px;
+	display: block;
+}
+
+body .main-menu ul li {
+	display: table-cell;
+	width: 1%;
+}
+
+body .main-menu ul li a {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	color: #fff;
+	background: #FF9613;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+body .main-menu ul li a i {
+	font-size: 48px;
+	padding-bottom: 15px;
+}
+body .main-menu ul li a:hover {
+	background: #00ACB2;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	body .main-menu .fa-bars {
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		display: block;
+		text-decoration: none;
+		background: white;
+		color: rgb(45, 39, 39);
+		padding-right: 10px;
+	}
+
+	body .main-menu .fa-bars:hover {
+		display: block;
+		text-decoration: none;
+		background: white;
+		color: white;
+		background: rgb(45, 39, 39);
+	}
+
+	body .main-menu {
+		text-align: center;
+	}
+
+	body .main-menu ul {
+	    float: none;
+	    margin-top: 0px;
+	    width: 100%;
+	    clear: both;
+	   	display: none;
+	}
+
+	body .main-menu ul li {
+	    display: block;
+	    width: 100%;
+	}
+}
