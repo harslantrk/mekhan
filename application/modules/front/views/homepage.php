@@ -1,4 +1,3 @@
-<?php die(); ?>
 <!--Content-->
 <div class="content">
 	<div class="row">
